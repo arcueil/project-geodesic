@@ -41,8 +41,10 @@ The complete research proposal is in [PROGRAM.md](PROGRAM.md).
 
 The Paper 1 directory contains the circulation-ready manuscript, figures,
 frozen summaries, checksummed result transcripts, and reproduction scripts.
-The large immutable array sidecar is kept out of Git history and published with
-the [Paper 1 circulation release](https://github.com/arcueil/project-geodesic/releases/tag/paper1-circulation-2026-07-26).
+The large immutable array sidecar is kept out of Git history. Its exact
+filename, size, member inventory, extraction policy, and SHA-256 digest are
+recorded in the Paper 1 experiment metadata; its public release upload is
+pending.
 
 The evaluated implementation is pinned to
 [`blackjax` commit `29d246885`](https://github.com/blackjax-devs/blackjax/commit/29d2468857be4de1644ca4470c2a4aa7f8137656).

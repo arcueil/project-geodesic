@@ -3,12 +3,11 @@
 Large immutable artifacts are published as GitHub release assets rather than
 committed to Git history.
 
-## Paper 1 circulation release
+## Paper 1 circulation artifacts
 
-Release:
-[`paper1-circulation-2026-07-26`](https://github.com/arcueil/project-geodesic/releases/tag/paper1-circulation-2026-07-26)
-
-Assets:
+The curated package is versioned in the Paper 1 directory. The following
+standalone release assets are prepared, but the public large-asset upload is
+pending:
 
 - `universal-warmup-path-circulation-3262037.tar.zst` — curated manuscript and
   reproducibility package.
