@@ -26,6 +26,10 @@ curated circulation artifact.
 
 ## Empirical authority
 
+The public experiment package is archived in the
+[Project Geodesic Paper 1 experiment folder](https://github.com/arcueil/project-geodesic/tree/paper1-circulation-v1/papers/01-universal-warmup-path/experiments).
+The `paper1-circulation-v1` tag pins the circulation copy.
+
 The canonical number source is:
 
 `experiments/results/paper1-full-29d246-20260726-v1-validation-v2/frozen_summary.json`
@@ -34,9 +38,12 @@ Its validation attestation is beside it. Checksummed raw inputs are under:
 
 `experiments/results/paper1-full-29d246-20260726-v1/`
 
-The controller revision is
-`29d2468857be4de1644ca4470c2a4aa7f8137656`. The shared-step historical
-comparator is `2f62921848a93e7dc544ba9de8e29ef177e373b6`.
+The frozen corpus was executed at controller revision
+`29d2468857be4de1644ca4470c2a4aa7f8137656`. Its
+`blackjax/adaptation/meta` tree was merged unchanged as BlackJAX revision
+`2103a4275b4d29b1650ba06458d5703eb7302b2e` in PR
+[#1011](https://github.com/blackjax-devs/blackjax/pull/1011). The shared-step
+historical comparator is `2f62921848a93e7dc544ba9de8e29ef177e373b6`.
 
 ## Build
 

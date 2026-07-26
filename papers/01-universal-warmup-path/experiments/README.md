@@ -92,6 +92,13 @@ source trees. It refuses a dirty checkout or the wrong revision.
 | BlackJAX, historical | `2f62921848a93e7dc544ba9de8e29ef177e373b6` | sequential shared-step-size comparison only |
 | tuningfork | `79ffb73250f5024dc511b3035d373d11474c2195` | models and experiment support |
 
+The current controller was subsequently merged in
+[BlackJAX PR #1011](https://github.com/blackjax-devs/blackjax/pull/1011) as
+revision `2103a4275b4d29b1650ba06458d5703eb7302b2e`. The
+`blackjax/adaptation/meta` tree is identical at the executed and merged
+revisions. The table deliberately retains `29d2468857...` because every
+producer and manifest records the exact source revision used by the frozen run.
+
 The current BlackJAX target is supplied as an exact Git bundle because the
 artifact was prepared before that revision was guaranteed to be reachable
 from the public remote. Its public prerequisite is

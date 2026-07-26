@@ -812,10 +812,17 @@ general gain.
 
 {\raggedright
 BlackJAX provides the composable inference framework used here
-\citep{cabezas2024blackjax}. The evaluated controller is the
-\texttt{blackjax/adaptation/meta} module at revision
-\nolinkurl{29d2468857be4de1644ca4470c2a4aa7f8137656}.\footnote{\raggedright
-\url{https://github.com/blackjax-devs/blackjax/tree/29d2468857be4de1644ca4470c2a4aa7f8137656/blackjax/adaptation/meta}}
+\citep{cabezas2024blackjax}. The controller is available in the
+\texttt{blackjax/adaptation/meta} module at merged revision
+\nolinkurl{2103a4275b4d29b1650ba06458d5703eb7302b2e}.\footnote{\raggedright
+\url{https://github.com/blackjax-devs/blackjax/tree/2103a4275b4d29b1650ba06458d5703eb7302b2e/blackjax/adaptation/meta}}
+The frozen experiment corpus was executed from pre-merge revision
+\nolinkurl{29d2468857be4de1644ca4470c2a4aa7f8137656}; its
+\texttt{blackjax/adaptation/meta} tree is identical at the merged revision,
+and the frozen manifests retain the executed revision as the immutable run
+identity. The experiment code, frozen summary, checksummed outputs, and raw
+sidecar are archived with the paper in Project Geodesic.\footnote{\raggedright
+\url{https://github.com/arcueil/project-geodesic/tree/paper1-circulation-v1/papers/01-universal-warmup-path/experiments}}
 \texttt{staged\_adaptation} is the host interface that supplies the step-size
 controller, static schedule, and metric core.
 \par}

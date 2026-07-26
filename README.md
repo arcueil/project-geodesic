@@ -47,10 +47,12 @@ is stored with Git LFS rather than as a normal Git blob. Its exact filename,
 size, member inventory, extraction policy, and SHA-256 digest are recorded in
 the Paper 1 experiment metadata.
 
-The evaluated implementation is pinned to
-[`blackjax` commit `29d246885`](https://github.com/blackjax-devs/blackjax/commit/29d2468857be4de1644ca4470c2a4aa7f8137656).
-Its evidence-reporting update is under review in
-[blackjax-devs/blackjax#1011](https://github.com/blackjax-devs/blackjax/pull/1011).
+The implementation is merged in BlackJAX at
+[`2103a4275`](https://github.com/blackjax-devs/blackjax/commit/2103a4275b4d29b1650ba06458d5703eb7302b2e)
+through [blackjax-devs/blackjax#1011](https://github.com/blackjax-devs/blackjax/pull/1011).
+The frozen experiments retain the exact executed revision
+[`29d246885`](https://github.com/blackjax-devs/blackjax/commit/29d2468857be4de1644ca4470c2a4aa7f8137656);
+its `blackjax/adaptation/meta` tree is identical at the merged revision.
 
 ## Repository boundaries
 
