@@ -41,10 +41,11 @@ The complete research proposal is in [PROGRAM.md](PROGRAM.md).
 
 The Paper 1 directory contains the circulation-ready manuscript, figures,
 frozen summaries, checksummed result transcripts, and reproduction scripts.
-The large immutable array sidecar is kept out of Git history. Its exact
-filename, size, member inventory, extraction policy, and SHA-256 digest are
-recorded in the Paper 1 experiment metadata; its public release upload is
-pending.
+The 471 MB immutable array
+[sidecar](papers/01-universal-warmup-path/experiments/paper1-full-29d246-20260726-v1-npz.tar.zst)
+is stored with Git LFS rather than as a normal Git blob. Its exact filename,
+size, member inventory, extraction policy, and SHA-256 digest are recorded in
+the Paper 1 experiment metadata.
 
 The evaluated implementation is pinned to
 [`blackjax` commit `29d246885`](https://github.com/blackjax-devs/blackjax/commit/29d2468857be4de1644ca4470c2a4aa7f8137656).

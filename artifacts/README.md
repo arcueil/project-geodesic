@@ -5,14 +5,20 @@ committed to Git history.
 
 ## Paper 1 circulation artifacts
 
-The curated package is versioned in the Paper 1 directory. The following
-standalone release assets are prepared, but the public large-asset upload is
-pending:
+The curated manuscript and reproducibility package is versioned in
+[`papers/01-universal-warmup-path`](../papers/01-universal-warmup-path/).
+The 471 MB archive of immutable raw NumPy sidecars is stored at:
 
-- `universal-warmup-path-circulation-3262037.tar.zst` — curated manuscript and
-  reproducibility package.
-- `paper1-full-29d246-20260726-v1-npz.tar.zst` — immutable raw NumPy sidecars.
+`papers/01-universal-warmup-path/experiments/paper1-full-29d246-20260726-v1-npz.tar.zst`
 
-The SHA-256 records are stored beside the experiment metadata in
-[`papers/01-universal-warmup-path/experiments`](../papers/01-universal-warmup-path/experiments/).
-Always verify the downloaded sidecar before extraction.
+The archive is a Git LFS object. After cloning, retrieve and verify it with:
+
+```sh
+git lfs pull --include="papers/01-universal-warmup-path/experiments/paper1-full-29d246-20260726-v1-npz.tar.zst"
+cd papers/01-universal-warmup-path/experiments
+sha256sum -c paper1-full-29d246-20260726-v1-npz.tar.zst.sha256
+```
+
+The adjacent metadata also records the exact size, member inventory, extraction
+policy, and per-file integrity source. Always verify the sidecar before
+extraction.
