@@ -1,0 +1,784 @@
+{
+  "created_utc": "2026-07-26T09:23:09.879855+00:00",
+  "dependencies": {
+    "current_blackjax": {
+      "checkout_name": "blackjax",
+      "dirty": false,
+      "revision": "29d2468857be4de1644ca4470c2a4aa7f8137656"
+    },
+    "historical_blackjax": {
+      "checkout_name": "blackjax-paper1-2f629",
+      "dirty": false,
+      "revision": "2f62921848a93e7dc544ba9de8e29ef177e373b6"
+    },
+    "tuningfork": {
+      "checkout_name": "tuningfork",
+      "dirty": false,
+      "revision": "79ffb73250f5024dc511b3035d373d11474c2195"
+    }
+  },
+  "excluded_examples": [
+    "gmm25"
+  ],
+  "host": {
+    "architecture": "aarch64",
+    "os": "Linux"
+  },
+  "interpreter": {
+    "executable_name": "python",
+    "packages": {
+      "arviz": "1.1.0",
+      "jax": "0.11.0",
+      "jaxlib": "0.11.0",
+      "matplotlib": "3.10.9",
+      "numpy": "2.4.6",
+      "numpyro": "0.21.0",
+      "scipy": "1.17.1"
+    },
+    "python": "3.13.14"
+  },
+  "mode": "full",
+  "planned_section_counts": {
+    "fixed_cells": 77,
+    "gmm_cells": 239,
+    "kernel_calibrations": 6,
+    "kernel_result_rows": 24,
+    "kernel_route_cells": 12,
+    "restart_cells": 12,
+    "schedule_cells": 24,
+    "shared_current_cells": 12,
+    "shared_historical_cells": 12
+  },
+  "resource_limits": {
+    "mechanism": "runcap",
+    "outer_memory_cap": "80G",
+    "scope": "full_corpus_orchestrator_and_children"
+  },
+  "run_id": "exp497-full-29d246-v1",
+  "schema_version": "paper1-full-corpus-v1",
+  "source_sha256": {
+    "artifact_manifest.json": "50ac90c615eb3adc784e4c9650141968c33824539ef69aa97baa915f613b62ad",
+    "gmm_boundary.py": "410b22b9e4d979072f9ef677750e4e36313dda555a0885540e3820e6f41d447b",
+    "gmm_k3_ablation.py": "a4738e24471fddcb03bab03ba030e9c43f2291bb938d951a9279e3e96cede8ee",
+    "gmm_suite.py": "6dec819a424d4a748ce9d371790ea4c065ccbf7a35f005181c02d070482c60e5",
+    "make_figure_bbp.py": "45055e806d7a158da228f56bc073b81e5788075f1cbc80ad052993eeec536932",
+    "plot_schedule_evidence.py": "fb799d4614154791793394ad5dc69f6e68aa431bfd6a4943a9465c53e3212b0d",
+    "run_fixed_suite.py": "bf4bde09fe5d58756f15dfe5408d7e8e739542144eaede19b53bb843dcb53115",
+    "run_full_corpus.py": "d4589e0b0a5b0e933cf9cb48e08ea872f7a59a9d71bbcb02293c46b4bf11ea99",
+    "run_gmm_suite.py": "0c65952a00f9dbf3d639566c8329d1d2c81ce962ea186f0737fbe0ec8fee0af1",
+    "run_kernel_family.py": "8e32e5e40b429bbfdd6aa17ba88a2fe85d4604a613ab5b1b4f4c3ffcc8c313d3",
+    "run_restart_ablation.py": "9dac3c7d4fa128c3b2bf1de4a234d3d4c2c3e7ffc206f96e05604437b552cf99",
+    "run_schedule_comparison.py": "c9fb1d7ef4d0a292daa761e9a86c72998fb33220590498ff6e5877489aadc3d8",
+    "run_shared_step_size.py": "5147388357971d2ebc35a8f7d620982125cf34ee3cfd7240cd96f63b3244010d",
+    "suite_common.py": "0d6d9a5207017326e68bde03f5045af4a8d722e4d29ab32c1cc0d40a5de55b02",
+    "test_full_corpus.py": "09207986d13307aa11272c3f53ca49a539f468cb271bd63c9326118aef72b12c",
+    "test_gmm_boundary.py": "ecfe6b49df2b38409a23b5f34861b775e75bbceda57e4ff7e86fe68215a6fc2b",
+    "test_gmm_suite.py": "4df1526215344421fa17fbd71efbced229709a6f1de6d5922247f2114d62b2e9",
+    "test_make_figure_bbp.py": "1d7b526ab09bd71c8ead860c12a05747804373281e75b976811e4e70143fbd3e",
+    "test_window_events.py": "9c55f2af7af35771a5c2c04a81755d7ecdbff94b40da1299b7b7e522d0b9edf2",
+    "validate_full_results.py": "612a8fefeafa367f311315dcba5b7a1a02042b328aba4bb3055ae09b88d860fa",
+    "validate_gmm_results.py": "97faf4ccb5fe7e3f76f7534d169bd865477d1ed801cb25172b604de5153f2129",
+    "window_events.py": "7c80be1dfc37e7c9f891cf75706b237ea7c98297c0520ccf0354e69522b76621"
+  },
+  "status": "started",
+  "tasks": [
+    {
+      "arguments": [
+        "--block",
+        "illcond",
+        "--out",
+        "{output}/fixed/illcond.jsonl",
+        "--events-out",
+        "{output}/fixed/illcond.events.jsonl",
+        "--arrays-dir",
+        "{output}/fixed/illcond.arrays",
+        "--run-id",
+        "{run_id}"
+      ],
+      "command": [
+        "python",
+        "-u",
+        "run_fixed_suite.py",
+        "--block",
+        "illcond",
+        "--out",
+        "<run-dir>/fixed/illcond.jsonl",
+        "--events-out",
+        "<run-dir>/fixed/illcond.events.jsonl",
+        "--arrays-dir",
+        "<run-dir>/fixed/illcond.arrays",
+        "--run-id",
+        "<run-id>"
+      ],
+      "environment": "current",
+      "expected_cells": 7,
+      "expected_outputs": [
+        "fixed/illcond.jsonl",
+        "fixed/illcond.events.jsonl",
+        "fixed/illcond.manifest.json"
+      ],
+      "script": "run_fixed_suite.py",
+      "suite": "fixed-suite",
+      "task_id": "fixed-illcond"
+    },
+    {
+      "arguments": [
+        "--block",
+        "german",
+        "--out",
+        "{output}/fixed/german.jsonl",
+        "--events-out",
+        "{output}/fixed/german.events.jsonl",
+        "--arrays-dir",
+        "{output}/fixed/german.arrays",
+        "--run-id",
+        "{run_id}"
+      ],
+      "command": [
+        "python",
+        "-u",
+        "run_fixed_suite.py",
+        "--block",
+        "german",
+        "--out",
+        "<run-dir>/fixed/german.jsonl",
+        "--events-out",
+        "<run-dir>/fixed/german.events.jsonl",
+        "--arrays-dir",
+        "<run-dir>/fixed/german.arrays",
+        "--run-id",
+        "<run-id>"
+      ],
+      "environment": "current",
+      "expected_cells": 5,
+      "expected_outputs": [
+        "fixed/german.jsonl",
+        "fixed/german.events.jsonl",
+        "fixed/german.manifest.json"
+      ],
+      "script": "run_fixed_suite.py",
+      "suite": "fixed-suite",
+      "task_id": "fixed-german"
+    },
+    {
+      "arguments": [
+        "--block",
+        "radon-50k",
+        "--out",
+        "{output}/fixed/radon_50k.jsonl",
+        "--events-out",
+        "{output}/fixed/radon_50k.events.jsonl",
+        "--arrays-dir",
+        "{output}/fixed/radon_50k.arrays",
+        "--run-id",
+        "{run_id}"
+      ],
+      "command": [
+        "python",
+        "-u",
+        "run_fixed_suite.py",
+        "--block",
+        "radon-50k",
+        "--out",
+        "<run-dir>/fixed/radon_50k.jsonl",
+        "--events-out",
+        "<run-dir>/fixed/radon_50k.events.jsonl",
+        "--arrays-dir",
+        "<run-dir>/fixed/radon_50k.arrays",
+        "--run-id",
+        "<run-id>"
+      ],
+      "environment": "current",
+      "expected_cells": 2,
+      "expected_outputs": [
+        "fixed/radon_50k.jsonl",
+        "fixed/radon_50k.events.jsonl",
+        "fixed/radon_50k.manifest.json"
+      ],
+      "script": "run_fixed_suite.py",
+      "suite": "fixed-suite",
+      "task_id": "fixed-radon-50k"
+    },
+    {
+      "arguments": [
+        "--block",
+        "radon-400k",
+        "--out",
+        "{output}/fixed/radon_400k.jsonl",
+        "--events-out",
+        "{output}/fixed/radon_400k.events.jsonl",
+        "--arrays-dir",
+        "{output}/fixed/radon_400k.arrays",
+        "--run-id",
+        "{run_id}"
+      ],
+      "command": [
+        "python",
+        "-u",
+        "run_fixed_suite.py",
+        "--block",
+        "radon-400k",
+        "--out",
+        "<run-dir>/fixed/radon_400k.jsonl",
+        "--events-out",
+        "<run-dir>/fixed/radon_400k.events.jsonl",
+        "--arrays-dir",
+        "<run-dir>/fixed/radon_400k.arrays",
+        "--run-id",
+        "<run-id>"
+      ],
+      "environment": "current",
+      "expected_cells": 2,
+      "expected_outputs": [
+        "fixed/radon_400k.jsonl",
+        "fixed/radon_400k.events.jsonl",
+        "fixed/radon_400k.manifest.json"
+      ],
+      "script": "run_fixed_suite.py",
+      "suite": "fixed-suite",
+      "task_id": "fixed-radon-400k"
+    },
+    {
+      "arguments": [
+        "--block",
+        "refusals",
+        "--out",
+        "{output}/fixed/refusals.jsonl",
+        "--events-out",
+        "{output}/fixed/refusals.events.jsonl",
+        "--arrays-dir",
+        "{output}/fixed/refusals.arrays",
+        "--run-id",
+        "{run_id}"
+      ],
+      "command": [
+        "python",
+        "-u",
+        "run_fixed_suite.py",
+        "--block",
+        "refusals",
+        "--out",
+        "<run-dir>/fixed/refusals.jsonl",
+        "--events-out",
+        "<run-dir>/fixed/refusals.events.jsonl",
+        "--arrays-dir",
+        "<run-dir>/fixed/refusals.arrays",
+        "--run-id",
+        "<run-id>"
+      ],
+      "environment": "current",
+      "expected_cells": 5,
+      "expected_outputs": [
+        "fixed/refusals.jsonl",
+        "fixed/refusals.events.jsonl",
+        "fixed/refusals.manifest.json"
+      ],
+      "script": "run_fixed_suite.py",
+      "suite": "fixed-suite",
+      "task_id": "fixed-refusals"
+    },
+    {
+      "arguments": [
+        "--block",
+        "controls",
+        "--out",
+        "{output}/fixed/controls.jsonl",
+        "--events-out",
+        "{output}/fixed/controls.events.jsonl",
+        "--arrays-dir",
+        "{output}/fixed/controls.arrays",
+        "--run-id",
+        "{run_id}"
+      ],
+      "command": [
+        "python",
+        "-u",
+        "run_fixed_suite.py",
+        "--block",
+        "controls",
+        "--out",
+        "<run-dir>/fixed/controls.jsonl",
+        "--events-out",
+        "<run-dir>/fixed/controls.events.jsonl",
+        "--arrays-dir",
+        "<run-dir>/fixed/controls.arrays",
+        "--run-id",
+        "<run-id>"
+      ],
+      "environment": "current",
+      "expected_cells": 5,
+      "expected_outputs": [
+        "fixed/controls.jsonl",
+        "fixed/controls.events.jsonl",
+        "fixed/controls.manifest.json"
+      ],
+      "script": "run_fixed_suite.py",
+      "suite": "fixed-suite",
+      "task_id": "fixed-controls"
+    },
+    {
+      "arguments": [
+        "--block",
+        "clones",
+        "--out",
+        "{output}/fixed/clones.jsonl",
+        "--events-out",
+        "{output}/fixed/clones.events.jsonl",
+        "--arrays-dir",
+        "{output}/fixed/clones.arrays",
+        "--run-id",
+        "{run_id}"
+      ],
+      "command": [
+        "python",
+        "-u",
+        "run_fixed_suite.py",
+        "--block",
+        "clones",
+        "--out",
+        "<run-dir>/fixed/clones.jsonl",
+        "--events-out",
+        "<run-dir>/fixed/clones.events.jsonl",
+        "--arrays-dir",
+        "<run-dir>/fixed/clones.arrays",
+        "--run-id",
+        "<run-id>"
+      ],
+      "environment": "current",
+      "expected_cells": 3,
+      "expected_outputs": [
+        "fixed/clones.jsonl",
+        "fixed/clones.events.jsonl",
+        "fixed/clones.manifest.json"
+      ],
+      "script": "run_fixed_suite.py",
+      "suite": "fixed-suite",
+      "task_id": "fixed-clones"
+    },
+    {
+      "arguments": [
+        "--block",
+        "manual-illcond",
+        "--out",
+        "{output}/fixed/manual_illcond.jsonl",
+        "--events-out",
+        "{output}/fixed/manual_illcond.events.jsonl",
+        "--arrays-dir",
+        "{output}/fixed/manual_illcond.arrays",
+        "--run-id",
+        "{run_id}"
+      ],
+      "command": [
+        "python",
+        "-u",
+        "run_fixed_suite.py",
+        "--block",
+        "manual-illcond",
+        "--out",
+        "<run-dir>/fixed/manual_illcond.jsonl",
+        "--events-out",
+        "<run-dir>/fixed/manual_illcond.events.jsonl",
+        "--arrays-dir",
+        "<run-dir>/fixed/manual_illcond.arrays",
+        "--run-id",
+        "<run-id>"
+      ],
+      "environment": "current",
+      "expected_cells": 14,
+      "expected_outputs": [
+        "fixed/manual_illcond.jsonl",
+        "fixed/manual_illcond.events.jsonl",
+        "fixed/manual_illcond.manifest.json"
+      ],
+      "script": "run_fixed_suite.py",
+      "suite": "fixed-suite",
+      "task_id": "fixed-manual-illcond"
+    },
+    {
+      "arguments": [
+        "--block",
+        "manual-german",
+        "--out",
+        "{output}/fixed/manual_german.jsonl",
+        "--events-out",
+        "{output}/fixed/manual_german.events.jsonl",
+        "--arrays-dir",
+        "{output}/fixed/manual_german.arrays",
+        "--run-id",
+        "{run_id}"
+      ],
+      "command": [
+        "python",
+        "-u",
+        "run_fixed_suite.py",
+        "--block",
+        "manual-german",
+        "--out",
+        "<run-dir>/fixed/manual_german.jsonl",
+        "--events-out",
+        "<run-dir>/fixed/manual_german.events.jsonl",
+        "--arrays-dir",
+        "<run-dir>/fixed/manual_german.arrays",
+        "--run-id",
+        "<run-id>"
+      ],
+      "environment": "current",
+      "expected_cells": 10,
+      "expected_outputs": [
+        "fixed/manual_german.jsonl",
+        "fixed/manual_german.events.jsonl",
+        "fixed/manual_german.manifest.json"
+      ],
+      "script": "run_fixed_suite.py",
+      "suite": "fixed-suite",
+      "task_id": "fixed-manual-german"
+    },
+    {
+      "arguments": [
+        "--block",
+        "manual-population-illcond",
+        "--out",
+        "{output}/fixed/manual_population_illcond.jsonl",
+        "--events-out",
+        "{output}/fixed/manual_population_illcond.events.jsonl",
+        "--arrays-dir",
+        "{output}/fixed/manual_population_illcond.arrays",
+        "--run-id",
+        "{run_id}"
+      ],
+      "command": [
+        "python",
+        "-u",
+        "run_fixed_suite.py",
+        "--block",
+        "manual-population-illcond",
+        "--out",
+        "<run-dir>/fixed/manual_population_illcond.jsonl",
+        "--events-out",
+        "<run-dir>/fixed/manual_population_illcond.events.jsonl",
+        "--arrays-dir",
+        "<run-dir>/fixed/manual_population_illcond.arrays",
+        "--run-id",
+        "<run-id>"
+      ],
+      "environment": "current",
+      "expected_cells": 14,
+      "expected_outputs": [
+        "fixed/manual_population_illcond.jsonl",
+        "fixed/manual_population_illcond.events.jsonl",
+        "fixed/manual_population_illcond.manifest.json"
+      ],
+      "script": "run_fixed_suite.py",
+      "suite": "fixed-suite",
+      "task_id": "fixed-manual-population-illcond"
+    },
+    {
+      "arguments": [
+        "--block",
+        "manual-population-german",
+        "--out",
+        "{output}/fixed/manual_population_german.jsonl",
+        "--events-out",
+        "{output}/fixed/manual_population_german.events.jsonl",
+        "--arrays-dir",
+        "{output}/fixed/manual_population_german.arrays",
+        "--run-id",
+        "{run_id}"
+      ],
+      "command": [
+        "python",
+        "-u",
+        "run_fixed_suite.py",
+        "--block",
+        "manual-population-german",
+        "--out",
+        "<run-dir>/fixed/manual_population_german.jsonl",
+        "--events-out",
+        "<run-dir>/fixed/manual_population_german.events.jsonl",
+        "--arrays-dir",
+        "<run-dir>/fixed/manual_population_german.arrays",
+        "--run-id",
+        "<run-id>"
+      ],
+      "environment": "current",
+      "expected_cells": 10,
+      "expected_outputs": [
+        "fixed/manual_population_german.jsonl",
+        "fixed/manual_population_german.events.jsonl",
+        "fixed/manual_population_german.manifest.json"
+      ],
+      "script": "run_fixed_suite.py",
+      "suite": "fixed-suite",
+      "task_id": "fixed-manual-population-german"
+    },
+    {
+      "arguments": [
+        "--out",
+        "{output}/kernel/kernel_family.jsonl",
+        "--events-out",
+        "{output}/kernel/kernel_family.events.jsonl",
+        "--run-id",
+        "{run_id}"
+      ],
+      "command": [
+        "python",
+        "-u",
+        "run_kernel_family.py",
+        "--out",
+        "<run-dir>/kernel/kernel_family.jsonl",
+        "--events-out",
+        "<run-dir>/kernel/kernel_family.events.jsonl",
+        "--run-id",
+        "<run-id>"
+      ],
+      "environment": "current",
+      "expected_cells": 12,
+      "expected_outputs": [
+        "kernel/kernel_family.jsonl",
+        "kernel/kernel_family.events.jsonl",
+        "kernel/kernel_family.manifest.json"
+      ],
+      "script": "run_kernel_family.py",
+      "suite": "kernel-family",
+      "task_id": "kernel-family"
+    },
+    {
+      "arguments": [
+        "--out",
+        "{output}/schedule/schedule_configuration.jsonl",
+        "--events-out",
+        "{output}/schedule/schedule_configuration.events.jsonl",
+        "--run-id",
+        "{run_id}"
+      ],
+      "command": [
+        "python",
+        "-u",
+        "run_schedule_comparison.py",
+        "--out",
+        "<run-dir>/schedule/schedule_configuration.jsonl",
+        "--events-out",
+        "<run-dir>/schedule/schedule_configuration.events.jsonl",
+        "--run-id",
+        "<run-id>"
+      ],
+      "environment": "current",
+      "expected_cells": 24,
+      "expected_outputs": [
+        "schedule/schedule_configuration.jsonl",
+        "schedule/schedule_configuration.events.jsonl",
+        "schedule/schedule_configuration.manifest.json"
+      ],
+      "script": "run_schedule_comparison.py",
+      "suite": "schedule-configuration",
+      "task_id": "schedule-configuration"
+    },
+    {
+      "arguments": [
+        "--out",
+        "{output}/restart/restart_ablation.jsonl",
+        "--run-id",
+        "{run_id}"
+      ],
+      "command": [
+        "python",
+        "-u",
+        "run_restart_ablation.py",
+        "--out",
+        "<run-dir>/restart/restart_ablation.jsonl",
+        "--run-id",
+        "<run-id>"
+      ],
+      "environment": "current",
+      "expected_cells": 12,
+      "expected_outputs": [
+        "restart/restart_ablation.jsonl",
+        "restart/restart_ablation.manifest.json"
+      ],
+      "script": "run_restart_ablation.py",
+      "suite": "restart-ablation",
+      "task_id": "restart-ablation"
+    },
+    {
+      "arguments": [
+        "--revision",
+        "current",
+        "--out",
+        "{output}/shared_step/current.jsonl",
+        "--run-id",
+        "{run_id}"
+      ],
+      "command": [
+        "python",
+        "-u",
+        "run_shared_step_size.py",
+        "--revision",
+        "current",
+        "--out",
+        "<run-dir>/shared_step/current.jsonl",
+        "--run-id",
+        "<run-id>"
+      ],
+      "environment": "current",
+      "expected_cells": 12,
+      "expected_outputs": [
+        "shared_step/current.jsonl",
+        "shared_step/current.manifest.json"
+      ],
+      "script": "run_shared_step_size.py",
+      "suite": "shared-step-size",
+      "task_id": "shared-step-current"
+    },
+    {
+      "arguments": [
+        "--revision",
+        "historical",
+        "--out",
+        "{output}/shared_step/historical.jsonl",
+        "--run-id",
+        "{run_id}"
+      ],
+      "command": [
+        "python",
+        "-u",
+        "run_shared_step_size.py",
+        "--revision",
+        "historical",
+        "--out",
+        "<run-dir>/shared_step/historical.jsonl",
+        "--run-id",
+        "<run-id>"
+      ],
+      "environment": "historical",
+      "expected_cells": 12,
+      "expected_outputs": [
+        "shared_step/historical.jsonl",
+        "shared_step/historical.manifest.json"
+      ],
+      "script": "run_shared_step_size.py",
+      "suite": "shared-step-size",
+      "task_id": "shared-step-historical"
+    },
+    {
+      "arguments": [
+        "--output-dir",
+        "{output}/gmm",
+        "--blackjax-root",
+        "{current_blackjax}"
+      ],
+      "command": [
+        "python",
+        "-u",
+        "run_gmm_suite.py",
+        "--output-dir",
+        "<run-dir>/gmm",
+        "--blackjax-root",
+        "<current-blackjax>"
+      ],
+      "environment": "current",
+      "expected_cells": 239,
+      "expected_outputs": [
+        "gmm/provenance.json",
+        "gmm/run_manifest.json"
+      ],
+      "script": "run_gmm_suite.py",
+      "suite": "controlled-gmm",
+      "task_id": "controlled-gmm"
+    },
+    {
+      "arguments": [
+        "--out",
+        "{output}/figures/figure_bbp.pdf"
+      ],
+      "command": [
+        "python",
+        "-u",
+        "make_figure_bbp.py",
+        "--out",
+        "<run-dir>/figures/figure_bbp.pdf"
+      ],
+      "environment": "current",
+      "expected_cells": null,
+      "expected_outputs": [
+        "figures/figure_bbp.pdf"
+      ],
+      "script": "make_figure_bbp.py",
+      "suite": "bbp-calibration",
+      "task_id": "bbp-calibration"
+    },
+    {
+      "arguments": [
+        "--input",
+        "{output}/gmm/gmm_k2_primary_60k.jsonl",
+        "--out",
+        "{output}/figures/schedule_evidence.pdf",
+        "--arm-id",
+        "gmm_k2_primary_60k",
+        "--sr",
+        "5.0",
+        "--seed",
+        "42"
+      ],
+      "command": [
+        "python",
+        "-u",
+        "plot_schedule_evidence.py",
+        "--input",
+        "<run-dir>/gmm/gmm_k2_primary_60k.jsonl",
+        "--out",
+        "<run-dir>/figures/schedule_evidence.pdf",
+        "--arm-id",
+        "gmm_k2_primary_60k",
+        "--sr",
+        "5.0",
+        "--seed",
+        "42"
+      ],
+      "environment": "current",
+      "expected_cells": null,
+      "expected_outputs": [
+        "figures/schedule_evidence.pdf"
+      ],
+      "script": "plot_schedule_evidence.py",
+      "suite": "schedule-evidence",
+      "task_id": "schedule-evidence-pdf"
+    },
+    {
+      "arguments": [
+        "--input",
+        "{output}/gmm/gmm_k2_primary_60k.jsonl",
+        "--out",
+        "{output}/figures/schedule_evidence.png",
+        "--arm-id",
+        "gmm_k2_primary_60k",
+        "--sr",
+        "5.0",
+        "--seed",
+        "42"
+      ],
+      "command": [
+        "python",
+        "-u",
+        "plot_schedule_evidence.py",
+        "--input",
+        "<run-dir>/gmm/gmm_k2_primary_60k.jsonl",
+        "--out",
+        "<run-dir>/figures/schedule_evidence.png",
+        "--arm-id",
+        "gmm_k2_primary_60k",
+        "--sr",
+        "5.0",
+        "--seed",
+        "42"
+      ],
+      "environment": "current",
+      "expected_cells": null,
+      "expected_outputs": [
+        "figures/schedule_evidence.png"
+      ],
+      "script": "plot_schedule_evidence.py",
+      "suite": "schedule-evidence",
+      "task_id": "schedule-evidence-png"
+    }
+  ]
+}

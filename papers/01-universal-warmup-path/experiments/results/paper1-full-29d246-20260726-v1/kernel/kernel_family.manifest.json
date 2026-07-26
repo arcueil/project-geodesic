@@ -1,0 +1,16 @@
+{
+  "error_cells": 0,
+  "events": {
+    "bytes": 67546,
+    "path": "kernel_family.events.jsonl",
+    "sha256": "a565b44b17a14234041ce50c43ed9b26f33c8c9f69362bf9744d272a53326156"
+  },
+  "expected_route_cells": 12,
+  "results": {
+    "bytes": 191689,
+    "path": "kernel_family.jsonl",
+    "sha256": "720ffbae8d196ec8f1de0118319c5c29d24617f75532c8a5defc517932e7573f"
+  },
+  "run_id": "exp497-full-29d246-v1",
+  "schema_version": "paper1-experiments-v1"
+}

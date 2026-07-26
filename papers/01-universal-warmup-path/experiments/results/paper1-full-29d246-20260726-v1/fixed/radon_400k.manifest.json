@@ -1,0 +1,130 @@
+{
+  "array_artifacts": [
+    {
+      "bytes": 12036929,
+      "cell_id": "radon:seed=0:B=400000",
+      "members": {
+        "draws": {
+          "dtype": "float64",
+          "shape": [
+            4000,
+            390
+          ]
+        },
+        "initial_positions": {
+          "dtype": "float64",
+          "shape": [
+            8,
+            390
+          ]
+        },
+        "sampling_divergences": {
+          "dtype": "bool",
+          "shape": [
+            4000
+          ]
+        },
+        "sampling_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            4000
+          ]
+        },
+        "warmup_divergences": {
+          "dtype": "bool",
+          "shape": [
+            2500,
+            8
+          ]
+        },
+        "warmup_end_positions": {
+          "dtype": "float64",
+          "shape": [
+            8,
+            390
+          ]
+        },
+        "warmup_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            2500,
+            8
+          ]
+        }
+      },
+      "path": "cell-0000.npz",
+      "sha256": "a281f55efb059f58e96ed0590b5cdfb67128bfea788f849ecd97b38ce4ffe0f8"
+    },
+    {
+      "bytes": 12030140,
+      "cell_id": "radon:seed=1:B=400000",
+      "members": {
+        "draws": {
+          "dtype": "float64",
+          "shape": [
+            4000,
+            390
+          ]
+        },
+        "initial_positions": {
+          "dtype": "float64",
+          "shape": [
+            8,
+            390
+          ]
+        },
+        "sampling_divergences": {
+          "dtype": "bool",
+          "shape": [
+            4000
+          ]
+        },
+        "sampling_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            4000
+          ]
+        },
+        "warmup_divergences": {
+          "dtype": "bool",
+          "shape": [
+            2500,
+            8
+          ]
+        },
+        "warmup_end_positions": {
+          "dtype": "float64",
+          "shape": [
+            8,
+            390
+          ]
+        },
+        "warmup_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            2500,
+            8
+          ]
+        }
+      },
+      "path": "cell-0001.npz",
+      "sha256": "b2de536cf4371004c8fead86769668990447a779a9b352927b6701f1906d43e4"
+    }
+  ],
+  "arrays_dir": "radon_400k.arrays",
+  "block": "radon-400k",
+  "error_cells": 0,
+  "events": {
+    "bytes": 18205,
+    "path": "radon_400k.events.jsonl",
+    "sha256": "75f9c639932976a5f41907ebdb892ee146f61530e2c5b7352fdf32d5bd9effe8"
+  },
+  "expected_cells": 2,
+  "results": {
+    "bytes": 105174,
+    "path": "radon_400k.jsonl",
+    "sha256": "a0b575bc799b2032ae5d8be588a1d14ea80bc992713eaaede9f2ba21563a2393"
+  },
+  "run_id": "exp497-full-29d246-v1",
+  "schema_version": "paper1-experiments-v1"
+}

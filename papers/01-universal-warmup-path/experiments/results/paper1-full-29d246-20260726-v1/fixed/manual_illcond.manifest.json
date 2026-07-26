@@ -1,0 +1,734 @@
+{
+  "array_artifacts": [
+    {
+      "bytes": 1546440,
+      "cell_id": "ill_cond_50:seed=0:metric=fisher_low_rank",
+      "members": {
+        "draws": {
+          "dtype": "float64",
+          "shape": [
+            4000,
+            50
+          ]
+        },
+        "initial_position": {
+          "dtype": "float64",
+          "shape": [
+            50
+          ]
+        },
+        "sampling_divergences": {
+          "dtype": "bool",
+          "shape": [
+            4000
+          ]
+        },
+        "sampling_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            4000
+          ]
+        },
+        "warmup_divergences": {
+          "dtype": "bool",
+          "shape": [
+            2500
+          ]
+        },
+        "warmup_end_position": {
+          "dtype": "float64",
+          "shape": [
+            50
+          ]
+        },
+        "warmup_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            2500
+          ]
+        }
+      },
+      "path": "cell-0000.npz",
+      "sha256": "68ffa0c5134090cf9b4a75cb4cc65362851de4f2882fb7d57b968af9500c63a3"
+    },
+    {
+      "bytes": 1548938,
+      "cell_id": "ill_cond_50:seed=0:metric=welford_diag",
+      "members": {
+        "draws": {
+          "dtype": "float64",
+          "shape": [
+            4000,
+            50
+          ]
+        },
+        "initial_position": {
+          "dtype": "float64",
+          "shape": [
+            50
+          ]
+        },
+        "sampling_divergences": {
+          "dtype": "bool",
+          "shape": [
+            4000
+          ]
+        },
+        "sampling_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            4000
+          ]
+        },
+        "warmup_divergences": {
+          "dtype": "bool",
+          "shape": [
+            2500
+          ]
+        },
+        "warmup_end_position": {
+          "dtype": "float64",
+          "shape": [
+            50
+          ]
+        },
+        "warmup_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            2500
+          ]
+        }
+      },
+      "path": "cell-0001.npz",
+      "sha256": "f64120114d4e0fa784574a9fbff7f11dbdcef1cdb0b840cdcdd55829e2932833"
+    },
+    {
+      "bytes": 1547305,
+      "cell_id": "ill_cond_50:seed=1:metric=fisher_low_rank",
+      "members": {
+        "draws": {
+          "dtype": "float64",
+          "shape": [
+            4000,
+            50
+          ]
+        },
+        "initial_position": {
+          "dtype": "float64",
+          "shape": [
+            50
+          ]
+        },
+        "sampling_divergences": {
+          "dtype": "bool",
+          "shape": [
+            4000
+          ]
+        },
+        "sampling_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            4000
+          ]
+        },
+        "warmup_divergences": {
+          "dtype": "bool",
+          "shape": [
+            2500
+          ]
+        },
+        "warmup_end_position": {
+          "dtype": "float64",
+          "shape": [
+            50
+          ]
+        },
+        "warmup_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            2500
+          ]
+        }
+      },
+      "path": "cell-0002.npz",
+      "sha256": "be14eaa28d2b6294328bc32bb7ce502559254c3c5e7b15ea2fa89ccc77bdd08e"
+    },
+    {
+      "bytes": 1548802,
+      "cell_id": "ill_cond_50:seed=1:metric=welford_diag",
+      "members": {
+        "draws": {
+          "dtype": "float64",
+          "shape": [
+            4000,
+            50
+          ]
+        },
+        "initial_position": {
+          "dtype": "float64",
+          "shape": [
+            50
+          ]
+        },
+        "sampling_divergences": {
+          "dtype": "bool",
+          "shape": [
+            4000
+          ]
+        },
+        "sampling_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            4000
+          ]
+        },
+        "warmup_divergences": {
+          "dtype": "bool",
+          "shape": [
+            2500
+          ]
+        },
+        "warmup_end_position": {
+          "dtype": "float64",
+          "shape": [
+            50
+          ]
+        },
+        "warmup_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            2500
+          ]
+        }
+      },
+      "path": "cell-0003.npz",
+      "sha256": "5ebf8da5260cb86e7091444eaf5eabbe12d7488cb756a7429d982bbded023ee9"
+    },
+    {
+      "bytes": 1547053,
+      "cell_id": "ill_cond_50:seed=2:metric=fisher_low_rank",
+      "members": {
+        "draws": {
+          "dtype": "float64",
+          "shape": [
+            4000,
+            50
+          ]
+        },
+        "initial_position": {
+          "dtype": "float64",
+          "shape": [
+            50
+          ]
+        },
+        "sampling_divergences": {
+          "dtype": "bool",
+          "shape": [
+            4000
+          ]
+        },
+        "sampling_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            4000
+          ]
+        },
+        "warmup_divergences": {
+          "dtype": "bool",
+          "shape": [
+            2500
+          ]
+        },
+        "warmup_end_position": {
+          "dtype": "float64",
+          "shape": [
+            50
+          ]
+        },
+        "warmup_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            2500
+          ]
+        }
+      },
+      "path": "cell-0004.npz",
+      "sha256": "a3aeace961590c28f9f9b4fb13ec68907f224cfe382cd9643eca4cb368a38911"
+    },
+    {
+      "bytes": 1549000,
+      "cell_id": "ill_cond_50:seed=2:metric=welford_diag",
+      "members": {
+        "draws": {
+          "dtype": "float64",
+          "shape": [
+            4000,
+            50
+          ]
+        },
+        "initial_position": {
+          "dtype": "float64",
+          "shape": [
+            50
+          ]
+        },
+        "sampling_divergences": {
+          "dtype": "bool",
+          "shape": [
+            4000
+          ]
+        },
+        "sampling_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            4000
+          ]
+        },
+        "warmup_divergences": {
+          "dtype": "bool",
+          "shape": [
+            2500
+          ]
+        },
+        "warmup_end_position": {
+          "dtype": "float64",
+          "shape": [
+            50
+          ]
+        },
+        "warmup_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            2500
+          ]
+        }
+      },
+      "path": "cell-0005.npz",
+      "sha256": "59c8f9d7ae872fdf955d435a295cb8b0c69d231de051f170de75ae67e7a1ebaa"
+    },
+    {
+      "bytes": 1547471,
+      "cell_id": "ill_cond_50:seed=3:metric=fisher_low_rank",
+      "members": {
+        "draws": {
+          "dtype": "float64",
+          "shape": [
+            4000,
+            50
+          ]
+        },
+        "initial_position": {
+          "dtype": "float64",
+          "shape": [
+            50
+          ]
+        },
+        "sampling_divergences": {
+          "dtype": "bool",
+          "shape": [
+            4000
+          ]
+        },
+        "sampling_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            4000
+          ]
+        },
+        "warmup_divergences": {
+          "dtype": "bool",
+          "shape": [
+            2500
+          ]
+        },
+        "warmup_end_position": {
+          "dtype": "float64",
+          "shape": [
+            50
+          ]
+        },
+        "warmup_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            2500
+          ]
+        }
+      },
+      "path": "cell-0006.npz",
+      "sha256": "4d5d27a496bb1f73d12796b180c7f7bc1fbb962198f82fd08d659b93bdd6652d"
+    },
+    {
+      "bytes": 1548887,
+      "cell_id": "ill_cond_50:seed=3:metric=welford_diag",
+      "members": {
+        "draws": {
+          "dtype": "float64",
+          "shape": [
+            4000,
+            50
+          ]
+        },
+        "initial_position": {
+          "dtype": "float64",
+          "shape": [
+            50
+          ]
+        },
+        "sampling_divergences": {
+          "dtype": "bool",
+          "shape": [
+            4000
+          ]
+        },
+        "sampling_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            4000
+          ]
+        },
+        "warmup_divergences": {
+          "dtype": "bool",
+          "shape": [
+            2500
+          ]
+        },
+        "warmup_end_position": {
+          "dtype": "float64",
+          "shape": [
+            50
+          ]
+        },
+        "warmup_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            2500
+          ]
+        }
+      },
+      "path": "cell-0007.npz",
+      "sha256": "3d42839b1bff59180818346140e634b2a15c629266eb9f589f27f9d8eb43a76e"
+    },
+    {
+      "bytes": 1546311,
+      "cell_id": "ill_cond_50:seed=4:metric=fisher_low_rank",
+      "members": {
+        "draws": {
+          "dtype": "float64",
+          "shape": [
+            4000,
+            50
+          ]
+        },
+        "initial_position": {
+          "dtype": "float64",
+          "shape": [
+            50
+          ]
+        },
+        "sampling_divergences": {
+          "dtype": "bool",
+          "shape": [
+            4000
+          ]
+        },
+        "sampling_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            4000
+          ]
+        },
+        "warmup_divergences": {
+          "dtype": "bool",
+          "shape": [
+            2500
+          ]
+        },
+        "warmup_end_position": {
+          "dtype": "float64",
+          "shape": [
+            50
+          ]
+        },
+        "warmup_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            2500
+          ]
+        }
+      },
+      "path": "cell-0008.npz",
+      "sha256": "10af51ac3d3d31b6c7648d5097b5bf92acd38d1bf7bf0e946584eb26258793b2"
+    },
+    {
+      "bytes": 1548938,
+      "cell_id": "ill_cond_50:seed=4:metric=welford_diag",
+      "members": {
+        "draws": {
+          "dtype": "float64",
+          "shape": [
+            4000,
+            50
+          ]
+        },
+        "initial_position": {
+          "dtype": "float64",
+          "shape": [
+            50
+          ]
+        },
+        "sampling_divergences": {
+          "dtype": "bool",
+          "shape": [
+            4000
+          ]
+        },
+        "sampling_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            4000
+          ]
+        },
+        "warmup_divergences": {
+          "dtype": "bool",
+          "shape": [
+            2500
+          ]
+        },
+        "warmup_end_position": {
+          "dtype": "float64",
+          "shape": [
+            50
+          ]
+        },
+        "warmup_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            2500
+          ]
+        }
+      },
+      "path": "cell-0009.npz",
+      "sha256": "efc14e7af2b1e4b2076e2dee8948897447a9cab7fb6bab800b55e090e36d15be"
+    },
+    {
+      "bytes": 1547594,
+      "cell_id": "ill_cond_50:seed=5:metric=fisher_low_rank",
+      "members": {
+        "draws": {
+          "dtype": "float64",
+          "shape": [
+            4000,
+            50
+          ]
+        },
+        "initial_position": {
+          "dtype": "float64",
+          "shape": [
+            50
+          ]
+        },
+        "sampling_divergences": {
+          "dtype": "bool",
+          "shape": [
+            4000
+          ]
+        },
+        "sampling_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            4000
+          ]
+        },
+        "warmup_divergences": {
+          "dtype": "bool",
+          "shape": [
+            2500
+          ]
+        },
+        "warmup_end_position": {
+          "dtype": "float64",
+          "shape": [
+            50
+          ]
+        },
+        "warmup_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            2500
+          ]
+        }
+      },
+      "path": "cell-0010.npz",
+      "sha256": "63bafc7af58f6afc2f8b295a624e88c7b1c6817a0904240efa1a51463bd25db2"
+    },
+    {
+      "bytes": 1548837,
+      "cell_id": "ill_cond_50:seed=5:metric=welford_diag",
+      "members": {
+        "draws": {
+          "dtype": "float64",
+          "shape": [
+            4000,
+            50
+          ]
+        },
+        "initial_position": {
+          "dtype": "float64",
+          "shape": [
+            50
+          ]
+        },
+        "sampling_divergences": {
+          "dtype": "bool",
+          "shape": [
+            4000
+          ]
+        },
+        "sampling_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            4000
+          ]
+        },
+        "warmup_divergences": {
+          "dtype": "bool",
+          "shape": [
+            2500
+          ]
+        },
+        "warmup_end_position": {
+          "dtype": "float64",
+          "shape": [
+            50
+          ]
+        },
+        "warmup_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            2500
+          ]
+        }
+      },
+      "path": "cell-0011.npz",
+      "sha256": "a3e5b673b4eb4e92d1c5a80bb0a55d2a776df855983da5602af6361c03108f06"
+    },
+    {
+      "bytes": 1547367,
+      "cell_id": "ill_cond_50:seed=6:metric=fisher_low_rank",
+      "members": {
+        "draws": {
+          "dtype": "float64",
+          "shape": [
+            4000,
+            50
+          ]
+        },
+        "initial_position": {
+          "dtype": "float64",
+          "shape": [
+            50
+          ]
+        },
+        "sampling_divergences": {
+          "dtype": "bool",
+          "shape": [
+            4000
+          ]
+        },
+        "sampling_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            4000
+          ]
+        },
+        "warmup_divergences": {
+          "dtype": "bool",
+          "shape": [
+            2500
+          ]
+        },
+        "warmup_end_position": {
+          "dtype": "float64",
+          "shape": [
+            50
+          ]
+        },
+        "warmup_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            2500
+          ]
+        }
+      },
+      "path": "cell-0012.npz",
+      "sha256": "ffbcff871d2d78df6b3d9683facfe9cbe3b3369e18765b47cab14b02069b1c2b"
+    },
+    {
+      "bytes": 1548905,
+      "cell_id": "ill_cond_50:seed=6:metric=welford_diag",
+      "members": {
+        "draws": {
+          "dtype": "float64",
+          "shape": [
+            4000,
+            50
+          ]
+        },
+        "initial_position": {
+          "dtype": "float64",
+          "shape": [
+            50
+          ]
+        },
+        "sampling_divergences": {
+          "dtype": "bool",
+          "shape": [
+            4000
+          ]
+        },
+        "sampling_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            4000
+          ]
+        },
+        "warmup_divergences": {
+          "dtype": "bool",
+          "shape": [
+            2500
+          ]
+        },
+        "warmup_end_position": {
+          "dtype": "float64",
+          "shape": [
+            50
+          ]
+        },
+        "warmup_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            2500
+          ]
+        }
+      },
+      "path": "cell-0013.npz",
+      "sha256": "34e0588d3467442bce282ad48fb55eda85f1be1faaae534e85ba9c6ccae9914c"
+    }
+  ],
+  "arrays_dir": "manual_illcond.arrays",
+  "block": "manual-illcond",
+  "error_cells": 0,
+  "events": {
+    "bytes": 1178,
+    "path": "manual_illcond.events.jsonl",
+    "sha256": "31cda51499049f9a9a231f15dd886f1526bfce6086145fce9926f615d66ca7c6"
+  },
+  "expected_cells": 14,
+  "results": {
+    "bytes": 64526,
+    "path": "manual_illcond.jsonl",
+    "sha256": "92e5e9709f2f6b1f76b3d2f3dceee50861caf59d92d43c333bd226ef62012f3b"
+  },
+  "run_id": "exp497-full-29d246-v1",
+  "schema_version": "paper1-experiments-v1"
+}

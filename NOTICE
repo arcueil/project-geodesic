@@ -1,0 +1,6 @@
+Project Geodesic
+Copyright 2026 Junpeng Lao
+
+The Paper 1 reproducibility package includes a patch and a Git bundle used to
+reconstruct a pinned BlackJAX revision. BlackJAX is distributed under the
+Apache License 2.0 by the BlackJAX authors.

@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "blackjax": {
+      "repository": "https://github.com/blackjax-devs/blackjax.git",
+      "current": {
+        "commit": "29d2468857be4de1644ca4470c2a4aa7f8137656",
+        "import_mode": "source-tree",
+        "reconstruction_manifest": "blackjax-patch-manifest.json"
+      },
+      "historical": {
+        "commit": "2f62921848a93e7dc544ba9de8e29ef177e373b6",
+        "import_mode": "source-tree",
+        "public_ref_at_generation": "origin/main"
+      }
+    },
+    "tuningfork": {
+      "repository": "https://github.com/blackjax-devs/tuningfork.git",
+      "commit": "79ffb73250f5024dc511b3035d373d11474c2195",
+      "import_mode": "editable-source-tree",
+      "public_ref_at_generation": "origin/main"
+    }
+  },
+  "runtime": {
+    "python_implementation": "CPython",
+    "python_version": "3.13.14",
+    "architecture": "aarch64",
+    "jax_version": "0.11.0",
+    "jaxlib_version": "0.11.0",
+    "backend": "cpu",
+    "device_count": 1,
+    "jax_enable_x64": true,
+    "required_environment": {
+      "JAX_ENABLE_X64": "1",
+      "JAX_PLATFORM_NAME": "cpu"
+    }
+  },
+  "environment_lock": {
+    "file": "environment.lock.txt",
+    "format": "pip-freeze",
+    "sha256": "3c55039c820dded7e6536698403f5d7cc3c2b41eaad89caa1d226ec21e03aa7b",
+    "source_packages_recorded_separately": [
+      "blackjax",
+      "tuningfork"
+    ],
+    "generator": {
+      "working_tree": "tuningfork",
+      "program": "uv",
+      "arguments": [
+        "pip",
+        "freeze",
+        "--python",
+        ".venv/bin/python",
+        "--exclude-editable",
+        "--exclude",
+        "blackjax"
+      ],
+      "environment": {
+        "UV_CACHE_DIR": "temporary writable cache"
+      }
+    }
+  }
+}

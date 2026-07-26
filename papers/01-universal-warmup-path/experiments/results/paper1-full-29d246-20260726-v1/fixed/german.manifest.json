@@ -1,0 +1,310 @@
+{
+  "array_artifacts": [
+    {
+      "bytes": 6365168,
+      "cell_id": "german_credit:seed=0:B=50000",
+      "members": {
+        "draws": {
+          "dtype": "float64",
+          "shape": [
+            8,
+            4000,
+            26
+          ]
+        },
+        "initial_positions": {
+          "dtype": "float64",
+          "shape": [
+            8,
+            26
+          ]
+        },
+        "sampling_divergences": {
+          "dtype": "bool",
+          "shape": [
+            8,
+            4000
+          ]
+        },
+        "sampling_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            8,
+            4000
+          ]
+        },
+        "warmup_divergences": {
+          "dtype": "bool",
+          "shape": [
+            312,
+            8
+          ]
+        },
+        "warmup_end_positions": {
+          "dtype": "float64",
+          "shape": [
+            8,
+            26
+          ]
+        },
+        "warmup_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            312,
+            8
+          ]
+        }
+      },
+      "path": "cell-0000.npz",
+      "sha256": "a7c33c264d4b8b5fdcf618019191f427e25c0ce1caf3fc71c5db09128538cd98"
+    },
+    {
+      "bytes": 6354560,
+      "cell_id": "german_credit:seed=1:B=50000",
+      "members": {
+        "draws": {
+          "dtype": "float64",
+          "shape": [
+            8,
+            4000,
+            26
+          ]
+        },
+        "initial_positions": {
+          "dtype": "float64",
+          "shape": [
+            8,
+            26
+          ]
+        },
+        "sampling_divergences": {
+          "dtype": "bool",
+          "shape": [
+            8,
+            4000
+          ]
+        },
+        "sampling_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            8,
+            4000
+          ]
+        },
+        "warmup_divergences": {
+          "dtype": "bool",
+          "shape": [
+            312,
+            8
+          ]
+        },
+        "warmup_end_positions": {
+          "dtype": "float64",
+          "shape": [
+            8,
+            26
+          ]
+        },
+        "warmup_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            312,
+            8
+          ]
+        }
+      },
+      "path": "cell-0001.npz",
+      "sha256": "6522bdbfaf6d85cb955372508fb13e7d7c0b76b0ace7891729c2c52214226632"
+    },
+    {
+      "bytes": 6359669,
+      "cell_id": "german_credit:seed=2:B=50000",
+      "members": {
+        "draws": {
+          "dtype": "float64",
+          "shape": [
+            8,
+            4000,
+            26
+          ]
+        },
+        "initial_positions": {
+          "dtype": "float64",
+          "shape": [
+            8,
+            26
+          ]
+        },
+        "sampling_divergences": {
+          "dtype": "bool",
+          "shape": [
+            8,
+            4000
+          ]
+        },
+        "sampling_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            8,
+            4000
+          ]
+        },
+        "warmup_divergences": {
+          "dtype": "bool",
+          "shape": [
+            312,
+            8
+          ]
+        },
+        "warmup_end_positions": {
+          "dtype": "float64",
+          "shape": [
+            8,
+            26
+          ]
+        },
+        "warmup_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            312,
+            8
+          ]
+        }
+      },
+      "path": "cell-0002.npz",
+      "sha256": "7ffe259f2ccb6885e4e1da06f9fcaa54631d6a5210a89d71b7507859f7a8d832"
+    },
+    {
+      "bytes": 6361778,
+      "cell_id": "german_credit:seed=3:B=50000",
+      "members": {
+        "draws": {
+          "dtype": "float64",
+          "shape": [
+            8,
+            4000,
+            26
+          ]
+        },
+        "initial_positions": {
+          "dtype": "float64",
+          "shape": [
+            8,
+            26
+          ]
+        },
+        "sampling_divergences": {
+          "dtype": "bool",
+          "shape": [
+            8,
+            4000
+          ]
+        },
+        "sampling_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            8,
+            4000
+          ]
+        },
+        "warmup_divergences": {
+          "dtype": "bool",
+          "shape": [
+            312,
+            8
+          ]
+        },
+        "warmup_end_positions": {
+          "dtype": "float64",
+          "shape": [
+            8,
+            26
+          ]
+        },
+        "warmup_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            312,
+            8
+          ]
+        }
+      },
+      "path": "cell-0003.npz",
+      "sha256": "29908c68233e8f084a9c249d39085b705f206f146c0cd2e25bfe525cc6436d69"
+    },
+    {
+      "bytes": 6364480,
+      "cell_id": "german_credit:seed=4:B=50000",
+      "members": {
+        "draws": {
+          "dtype": "float64",
+          "shape": [
+            8,
+            4000,
+            26
+          ]
+        },
+        "initial_positions": {
+          "dtype": "float64",
+          "shape": [
+            8,
+            26
+          ]
+        },
+        "sampling_divergences": {
+          "dtype": "bool",
+          "shape": [
+            8,
+            4000
+          ]
+        },
+        "sampling_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            8,
+            4000
+          ]
+        },
+        "warmup_divergences": {
+          "dtype": "bool",
+          "shape": [
+            312,
+            8
+          ]
+        },
+        "warmup_end_positions": {
+          "dtype": "float64",
+          "shape": [
+            8,
+            26
+          ]
+        },
+        "warmup_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            312,
+            8
+          ]
+        }
+      },
+      "path": "cell-0004.npz",
+      "sha256": "6c3fa1ef4cb20d90d3517675a072a26267d95e831b47afad5291df7b86a4bba6"
+    }
+  ],
+  "arrays_dir": "german.arrays",
+  "block": "german",
+  "error_cells": 0,
+  "events": {
+    "bytes": 33630,
+    "path": "german.events.jsonl",
+    "sha256": "eeac32b166380cef3ea85c9ccdbb844a9b704807783b27c0d5c80ef7a3c0676c"
+  },
+  "expected_cells": 5,
+  "results": {
+    "bytes": 116297,
+    "path": "german.jsonl",
+    "sha256": "76ee3fb7b89c32c3c00801f69a888f490772eb2c768cf8eff5807a4fa984bc15"
+  },
+  "run_id": "exp497-full-29d246-v1",
+  "schema_version": "paper1-experiments-v1"
+}

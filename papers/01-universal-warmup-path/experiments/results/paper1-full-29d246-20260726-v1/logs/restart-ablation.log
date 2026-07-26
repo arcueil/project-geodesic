@@ -1,0 +1,14 @@
+An NVIDIA GPU may be present on this machine, but a CUDA-enabled jaxlib is not installed. Falling back to cpu.
+ill_cond_50:seed=0:restart=per_window_reseed wg=45525 epg=0.110786
+ill_cond_50:seed=0:restart=continuous wg=44046 epg=0.117186
+ill_cond_50:seed=1:restart=per_window_reseed wg=44892 epg=0.11151
+ill_cond_50:seed=1:restart=continuous wg=44208 epg=0.112929
+ill_cond_50:seed=2:restart=per_window_reseed wg=45324 epg=0.117104
+ill_cond_50:seed=2:restart=continuous wg=44137 epg=0.113924
+german_credit:seed=0:restart=per_window_reseed wg=21248 epg=0.249587
+german_credit:seed=0:restart=continuous wg=21198 epg=0.236219
+german_credit:seed=1:restart=per_window_reseed wg=21087 epg=0.262676
+german_credit:seed=1:restart=continuous wg=21026 epg=0.262033
+german_credit:seed=2:restart=per_window_reseed wg=21690 epg=0.22357
+german_credit:seed=2:restart=continuous wg=21636 epg=0.25454
+{"error_cells": 0, "expected_cells": 12, "results": {"bytes": 11415, "path": "restart_ablation.jsonl", "sha256": "703c6ca0156384f04ce54c44a028652f5d31a9752dd69a8cb76297e76d246b91"}, "run_id": "exp497-full-29d246-v1", "schema_version": "paper1-experiments-v1"}

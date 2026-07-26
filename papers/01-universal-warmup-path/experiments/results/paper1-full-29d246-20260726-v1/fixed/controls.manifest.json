@@ -1,0 +1,295 @@
+{
+  "array_artifacts": [
+    {
+      "bytes": 15432858,
+      "cell_id": "stoch_vol:seed=0:B=50000",
+      "members": {
+        "draws": {
+          "dtype": "float64",
+          "shape": [
+            4000,
+            503
+          ]
+        },
+        "initial_positions": {
+          "dtype": "float64",
+          "shape": [
+            8,
+            503
+          ]
+        },
+        "sampling_divergences": {
+          "dtype": "bool",
+          "shape": [
+            4000
+          ]
+        },
+        "sampling_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            4000
+          ]
+        },
+        "warmup_divergences": {
+          "dtype": "bool",
+          "shape": [
+            312,
+            8
+          ]
+        },
+        "warmup_end_positions": {
+          "dtype": "float64",
+          "shape": [
+            8,
+            503
+          ]
+        },
+        "warmup_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            312,
+            8
+          ]
+        }
+      },
+      "path": "cell-0000.npz",
+      "sha256": "7b65205683b4bd6d5fedd4cf688552373189ffe2e2b1e27ae2f2b622ec6c58d0"
+    },
+    {
+      "bytes": 15482823,
+      "cell_id": "stoch_vol:seed=1:B=50000",
+      "members": {
+        "draws": {
+          "dtype": "float64",
+          "shape": [
+            4000,
+            503
+          ]
+        },
+        "initial_positions": {
+          "dtype": "float64",
+          "shape": [
+            8,
+            503
+          ]
+        },
+        "sampling_divergences": {
+          "dtype": "bool",
+          "shape": [
+            4000
+          ]
+        },
+        "sampling_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            4000
+          ]
+        },
+        "warmup_divergences": {
+          "dtype": "bool",
+          "shape": [
+            312,
+            8
+          ]
+        },
+        "warmup_end_positions": {
+          "dtype": "float64",
+          "shape": [
+            8,
+            503
+          ]
+        },
+        "warmup_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            312,
+            8
+          ]
+        }
+      },
+      "path": "cell-0001.npz",
+      "sha256": "99145b10dbade65b6f800dab73501edeb5106c6592b0537e34cee4d33e79ac7e"
+    },
+    {
+      "bytes": 305502,
+      "cell_id": "mvn_10:seed=0:B=50000",
+      "members": {
+        "draws": {
+          "dtype": "float64",
+          "shape": [
+            4000,
+            10
+          ]
+        },
+        "initial_positions": {
+          "dtype": "float64",
+          "shape": [
+            8,
+            10
+          ]
+        },
+        "sampling_divergences": {
+          "dtype": "bool",
+          "shape": [
+            4000
+          ]
+        },
+        "sampling_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            4000
+          ]
+        },
+        "warmup_divergences": {
+          "dtype": "bool",
+          "shape": [
+            312,
+            8
+          ]
+        },
+        "warmup_end_positions": {
+          "dtype": "float64",
+          "shape": [
+            8,
+            10
+          ]
+        },
+        "warmup_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            312,
+            8
+          ]
+        }
+      },
+      "path": "cell-0002.npz",
+      "sha256": "b6520cfe0a54812e9c314f9fe40664436d19dd7d381a23abb51f3ec488fd8d4e"
+    },
+    {
+      "bytes": 305834,
+      "cell_id": "mvn_10:seed=1:B=50000",
+      "members": {
+        "draws": {
+          "dtype": "float64",
+          "shape": [
+            4000,
+            10
+          ]
+        },
+        "initial_positions": {
+          "dtype": "float64",
+          "shape": [
+            8,
+            10
+          ]
+        },
+        "sampling_divergences": {
+          "dtype": "bool",
+          "shape": [
+            4000
+          ]
+        },
+        "sampling_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            4000
+          ]
+        },
+        "warmup_divergences": {
+          "dtype": "bool",
+          "shape": [
+            312,
+            8
+          ]
+        },
+        "warmup_end_positions": {
+          "dtype": "float64",
+          "shape": [
+            8,
+            10
+          ]
+        },
+        "warmup_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            312,
+            8
+          ]
+        }
+      },
+      "path": "cell-0003.npz",
+      "sha256": "3382a3878d2f0940601bb7781144d1be8224efb153b45af6ca5fd948685f18ba"
+    },
+    {
+      "bytes": 614523,
+      "cell_id": "isotropic_gaussian_d20:seed=0:B=50000",
+      "members": {
+        "draws": {
+          "dtype": "float64",
+          "shape": [
+            4000,
+            20
+          ]
+        },
+        "initial_positions": {
+          "dtype": "float64",
+          "shape": [
+            8,
+            20
+          ]
+        },
+        "sampling_divergences": {
+          "dtype": "bool",
+          "shape": [
+            4000
+          ]
+        },
+        "sampling_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            4000
+          ]
+        },
+        "warmup_divergences": {
+          "dtype": "bool",
+          "shape": [
+            312,
+            8
+          ]
+        },
+        "warmup_end_positions": {
+          "dtype": "float64",
+          "shape": [
+            8,
+            20
+          ]
+        },
+        "warmup_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            312,
+            8
+          ]
+        }
+      },
+      "path": "cell-0004.npz",
+      "sha256": "59c7e24c7fcaa808838d011978a9758f52172741119908dfd5b3339a359db9a8"
+    }
+  ],
+  "arrays_dir": "controls.arrays",
+  "block": "controls",
+  "error_cells": 0,
+  "events": {
+    "bytes": 34164,
+    "path": "controls.events.jsonl",
+    "sha256": "d7130902f13f4cbd6ca972204e3d761659e09eb519ce32354455d60fd8c6e446"
+  },
+  "expected_cells": 5,
+  "results": {
+    "bytes": 98334,
+    "path": "controls.jsonl",
+    "sha256": "b451df299b67e9143cd47b42e3a5f761db6b23bac918ba400a107045e43ddbd0"
+  },
+  "run_id": "exp497-full-29d246-v1",
+  "schema_version": "paper1-experiments-v1"
+}

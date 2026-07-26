@@ -1,0 +1,59 @@
+{
+  "blackjax": {
+    "checkout_name": "blackjax",
+    "commit": "29d2468857be4de1644ca4470c2a4aa7f8137656",
+    "dirty": false,
+    "module_relative_path": "blackjax/__init__.py"
+  },
+  "created_utc": "2026-07-26T09:54:43.443358+00:00",
+  "entry_point": "run_gmm_suite.py",
+  "environment": {
+    "JAX_ENABLE_X64": "1",
+    "JAX_PLATFORM_NAME": "cpu",
+    "XLA_FLAGS": null
+  },
+  "excluded_examples": [
+    "gmm25"
+  ],
+  "jax": {
+    "backend": "cpu",
+    "x64_enabled": true
+  },
+  "mode": "full",
+  "packages": {
+    "arviz": "1.1.0",
+    "jax": "0.11.0",
+    "matplotlib": "3.10.9",
+    "numpy": "2.4.6"
+  },
+  "python": {
+    "executable_name": "python",
+    "platform": "Linux-6.17.0-1026-nvidia-aarch64-with-glibc2.39",
+    "version": "3.13.14"
+  },
+  "schema_version": 1,
+  "source_sha256": {
+    "artifact_manifest.json": "50ac90c615eb3adc784e4c9650141968c33824539ef69aa97baa915f613b62ad",
+    "gmm_boundary.py": "410b22b9e4d979072f9ef677750e4e36313dda555a0885540e3820e6f41d447b",
+    "gmm_k3_ablation.py": "a4738e24471fddcb03bab03ba030e9c43f2291bb938d951a9279e3e96cede8ee",
+    "gmm_suite.py": "6dec819a424d4a748ce9d371790ea4c065ccbf7a35f005181c02d070482c60e5",
+    "make_figure_bbp.py": "45055e806d7a158da228f56bc073b81e5788075f1cbc80ad052993eeec536932",
+    "plot_schedule_evidence.py": "fb799d4614154791793394ad5dc69f6e68aa431bfd6a4943a9465c53e3212b0d",
+    "run_fixed_suite.py": "bf4bde09fe5d58756f15dfe5408d7e8e739542144eaede19b53bb843dcb53115",
+    "run_full_corpus.py": "d4589e0b0a5b0e933cf9cb48e08ea872f7a59a9d71bbcb02293c46b4bf11ea99",
+    "run_gmm_suite.py": "0c65952a00f9dbf3d639566c8329d1d2c81ce962ea186f0737fbe0ec8fee0af1",
+    "run_kernel_family.py": "8e32e5e40b429bbfdd6aa17ba88a2fe85d4604a613ab5b1b4f4c3ffcc8c313d3",
+    "run_restart_ablation.py": "9dac3c7d4fa128c3b2bf1de4a234d3d4c2c3e7ffc206f96e05604437b552cf99",
+    "run_schedule_comparison.py": "c9fb1d7ef4d0a292daa761e9a86c72998fb33220590498ff6e5877489aadc3d8",
+    "run_shared_step_size.py": "5147388357971d2ebc35a8f7d620982125cf34ee3cfd7240cd96f63b3244010d",
+    "suite_common.py": "0d6d9a5207017326e68bde03f5045af4a8d722e4d29ab32c1cc0d40a5de55b02",
+    "test_full_corpus.py": "09207986d13307aa11272c3f53ca49a539f468cb271bd63c9326118aef72b12c",
+    "test_gmm_boundary.py": "ecfe6b49df2b38409a23b5f34861b775e75bbceda57e4ff7e86fe68215a6fc2b",
+    "test_gmm_suite.py": "4df1526215344421fa17fbd71efbced229709a6f1de6d5922247f2114d62b2e9",
+    "test_make_figure_bbp.py": "1d7b526ab09bd71c8ead860c12a05747804373281e75b976811e4e70143fbd3e",
+    "test_window_events.py": "9c55f2af7af35771a5c2c04a81755d7ecdbff94b40da1299b7b7e522d0b9edf2",
+    "validate_full_results.py": "612a8fefeafa367f311315dcba5b7a1a02042b328aba4bb3055ae09b88d860fa",
+    "validate_gmm_results.py": "97faf4ccb5fe7e3f76f7534d169bd865477d1ed801cb25172b604de5153f2129",
+    "window_events.py": "7c80be1dfc37e7c9f891cf75706b237ea7c98297c0520ccf0354e69522b76621"
+  }
+}

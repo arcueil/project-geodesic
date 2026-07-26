@@ -1,0 +1,12 @@
+{
+  "error_cells": 0,
+  "expected_cells": 12,
+  "results": {
+    "bytes": 13811,
+    "path": "current.jsonl",
+    "sha256": "a984d6ab2383123370a120f5adb47863fe7c50814dcc45e7580f7ff3d60e5fbb"
+  },
+  "revision_arm": "current",
+  "run_id": "exp497-full-29d246-v1",
+  "schema_version": "paper1-experiments-v1"
+}

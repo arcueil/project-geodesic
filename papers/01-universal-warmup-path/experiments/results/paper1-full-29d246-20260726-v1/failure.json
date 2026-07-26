@@ -1,0 +1,38 @@
+{
+  "completed_tasks": [
+    "fixed-illcond",
+    "fixed-german",
+    "fixed-radon-50k",
+    "fixed-radon-400k",
+    "fixed-refusals",
+    "fixed-controls",
+    "fixed-clones",
+    "fixed-manual-illcond",
+    "fixed-manual-german",
+    "fixed-manual-population-illcond",
+    "fixed-manual-population-german",
+    "kernel-family",
+    "schedule-configuration",
+    "restart-ablation",
+    "shared-step-current",
+    "shared-step-historical",
+    "controlled-gmm",
+    "bbp-calibration",
+    "schedule-evidence-pdf",
+    "schedule-evidence-png",
+    "validate-full-results"
+  ],
+  "error": "full-corpus validation failed; see its immutable log",
+  "error_type": "CorpusRunError",
+  "failed_task": "validate-full-results",
+  "failed_utc": "2026-07-26T10:05:26.459268+00:00",
+  "mode": "full",
+  "resource_limits": {
+    "mechanism": "runcap",
+    "outer_memory_cap": "80G",
+    "scope": "full_corpus_orchestrator_and_children"
+  },
+  "run_id": "exp497-full-29d246-v1",
+  "schema_version": "paper1-full-corpus-v1",
+  "status": "failed"
+}

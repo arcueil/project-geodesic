@@ -1,0 +1,14 @@
+An NVIDIA GPU may be present on this machine, but a CUDA-enabled jaxlib is not installed. Falling back to cpu.
+ill_cond_50:seed=0:algorithm=hmc:L=63 route=low_rank ratio=197.881 div=0
+ill_cond_50:seed=0:algorithm=multinomial_hmc:L=63 route=low_rank ratio=1.144 div=0
+ill_cond_50:seed=1:algorithm=hmc:L=63 route=low_rank ratio=896.254 div=0
+ill_cond_50:seed=1:algorithm=multinomial_hmc:L=63 route=low_rank ratio=0.927 div=0
+ill_cond_50:seed=2:algorithm=hmc:L=63 route=low_rank ratio=9.673 div=0
+ill_cond_50:seed=2:algorithm=multinomial_hmc:L=63 route=low_rank ratio=0.792 div=0
+german_credit:seed=0:algorithm=hmc:L=15 route=low_rank ratio=33.894 div=0
+german_credit:seed=0:algorithm=multinomial_hmc:L=15 route=low_rank ratio=1.121 div=0
+german_credit:seed=1:algorithm=hmc:L=15 route=low_rank ratio=33.357 div=0
+german_credit:seed=1:algorithm=multinomial_hmc:L=15 route=low_rank ratio=1.122 div=0
+german_credit:seed=2:algorithm=hmc:L=15 route=low_rank ratio=2.249 div=0
+german_credit:seed=2:algorithm=multinomial_hmc:L=15 route=low_rank ratio=1.065 div=0
+{"error_cells": 0, "events": {"bytes": 67546, "path": "kernel_family.events.jsonl", "sha256": "a565b44b17a14234041ce50c43ed9b26f33c8c9f69362bf9744d272a53326156"}, "expected_route_cells": 12, "results": {"bytes": 191689, "path": "kernel_family.jsonl", "sha256": "720ffbae8d196ec8f1de0118319c5c29d24617f75532c8a5defc517932e7573f"}, "run_id": "exp497-full-29d246-v1", "schema_version": "paper1-experiments-v1"}

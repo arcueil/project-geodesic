@@ -1,0 +1,28 @@
+{
+  "correction_scope": {
+    "figures_changed": false,
+    "producer_computation_rerun": false,
+    "producer_sources_changed": false,
+    "raw_jsonl_changed": false,
+    "raw_npz_changed": false
+  },
+  "created_utc": "2026-07-26T10:13:59.119021+00:00",
+  "inputs": {
+    "original_validator_sha256": "612a8fefeafa367f311315dcba5b7a1a02042b328aba4bb3055ae09b88d860fa",
+    "source_execution_manifest_sha256": "79bcb82b84b83bc9406b0694e8912dff63862dbd7f9ff309fd63e45eaa5a9ffb",
+    "source_failure_manifest_sha256": "1661a9bbe0f8bb0a7c686e35b11d9b6ffc0bf1b7db513b8b7cdc12e7ae1bb4ed",
+    "source_validator_failure_log_sha256": "f85a8bd8db0bbe31ffe5b73d12e04bb970ed31053bf66e5dd2ec8d1678efad60"
+  },
+  "reason": "The original validator required a single-chain scalar divergence field on population-manual rows. Those rows correctly store per-chain and all-chain divergence summaries. The correction is validation-only.",
+  "repaired_validation": {
+    "execution_manifest_overlay_sha256": "f86c1e02ba233ffabde97c61c0868e0be0991e48a506ad01608160c4ba5f8296",
+    "frozen_summary_sha256": "94136b0e528b883148540efdbe43cd24ebd39bcaa905b86bd73a8c8d4763f24a",
+    "regression_test_source_sha256": "75bf3263716b524e9153e20e45a144405d7d06c09400b464fa7f7070ffe985b4",
+    "revalidation_script_sha256": "e358d3f748b5d6d5c667c4ee087df3864032cecf1b7c396ccdbf6698cdbfa393",
+    "validator_sha256": "99c4eedd21d83dac844a63b39cfa994fc11176e17b634d6e6c615136405b54df"
+  },
+  "schema_version": "paper1-validation-attestation-v1",
+  "source_run_directory_name": "paper1-full-29d246-20260726-v1",
+  "source_run_id": "exp497-full-29d246-v1",
+  "status": "valid"
+}

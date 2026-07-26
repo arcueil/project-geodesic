@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "path_convention": "Manifest path fields are repository-root-relative; command arguments are interpreted from each explicit working_directory.",
+  "corpus_lineage": {
+    "source_run": {
+      "directory": "adaptation_paper/experiments/results/paper1-full-29d246-20260726-v1",
+      "status": "producers_complete_validator_failed",
+      "execution_manifest": {
+        "path": "adaptation_paper/experiments/results/paper1-full-29d246-20260726-v1/execution_manifest.json",
+        "sha256": "79bcb82b84b83bc9406b0694e8912dff63862dbd7f9ff309fd63e45eaa5a9ffb"
+      },
+      "failure_manifest": {
+        "path": "adaptation_paper/experiments/results/paper1-full-29d246-20260726-v1/failure.json",
+        "sha256": "1661a9bbe0f8bb0a7c686e35b11d9b6ffc0bf1b7db513b8b7cdc12e7ae1bb4ed"
+      }
+    },
+    "successful_validation": {
+      "directory": "adaptation_paper/experiments/results/paper1-full-29d246-20260726-v1-validation-v2",
+      "status": "valid",
+      "scope": "validator schema correction only; producer sources, raw JSONL, raw NPZ, and figures unchanged",
+      "validation_attestation": {
+        "path": "adaptation_paper/experiments/results/paper1-full-29d246-20260726-v1-validation-v2/validation_attestation.json",
+        "sha256": "85b60b2958cfc3395828c0236a77d1fb4ee7ded16a4249e499fff339cee60b02"
+      },
+      "execution_manifest_overlay": {
+        "path": "adaptation_paper/experiments/results/paper1-full-29d246-20260726-v1-validation-v2/execution_manifest.overlay.json",
+        "sha256": "f86c1e02ba233ffabde97c61c0868e0be0991e48a506ad01608160c4ba5f8296"
+      },
+      "frozen_summary": {
+        "path": "adaptation_paper/experiments/results/paper1-full-29d246-20260726-v1-validation-v2/frozen_summary.json",
+        "sha256": "94136b0e528b883148540efdbe43cd24ebd39bcaa905b86bd73a8c8d4763f24a"
+      },
+      "checksums": {
+        "path": "adaptation_paper/experiments/results/paper1-full-29d246-20260726-v1-validation-v2/checksums.sha256",
+        "sha256": "fbdd43abc8a2336aeaee51cf22f304dacdc427f5fcbd01926e9c865803e62712"
+      }
+    }
+  },
+  "figures": [
+    {
+      "id": "bbp_calibration",
+      "manuscript_asset": {
+        "path": "adaptation_paper/figures/figure_bbp.pdf",
+        "bytes": 46454,
+        "sha256": "b4ebb5008b4ce966ba378a7fdd200477bafb6afabd49bcefaefa8c84ef6f3080"
+      },
+      "provenance": {
+        "kind": "byte_copy_from_immutable_source_run",
+        "source": {
+          "path": "adaptation_paper/experiments/results/paper1-full-29d246-20260726-v1/figures/figure_bbp.pdf",
+          "bytes": 46454,
+          "sha256": "b4ebb5008b4ce966ba378a7fdd200477bafb6afabd49bcefaefa8c84ef6f3080"
+        },
+        "generator": {
+          "path": "adaptation_paper/experiments/make_figure_bbp.py",
+          "sha256": "45055e806d7a158da228f56bc073b81e5788075f1cbc80ad052993eeec536932"
+        },
+        "working_directory": "adaptation_paper/experiments",
+        "source_command": [
+          "python",
+          "-u",
+          "make_figure_bbp.py",
+          "--out",
+          "<source-run>/figures/figure_bbp.pdf"
+        ]
+      }
+    },
+    {
+      "id": "schedule_evidence",
+      "manuscript_asset": {
+        "path": "adaptation_paper/figures/schedule_evidence.pdf",
+        "bytes": 20277,
+        "sha256": "79ba270d69cd9f7ba78346c8a230f027697a12312fdc9416c61ede974d45b033"
+      },
+      "provenance": {
+        "kind": "byte_copy_from_immutable_source_run",
+        "source": {
+          "path": "adaptation_paper/experiments/results/paper1-full-29d246-20260726-v1/figures/schedule_evidence.pdf",
+          "bytes": 20277,
+          "sha256": "79ba270d69cd9f7ba78346c8a230f027697a12312fdc9416c61ede974d45b033"
+        },
+        "generator": {
+          "path": "adaptation_paper/experiments/plot_schedule_evidence.py",
+          "sha256": "fb799d4614154791793394ad5dc69f6e68aa431bfd6a4943a9465c53e3212b0d"
+        },
+        "working_directory": "adaptation_paper/experiments",
+        "input": {
+          "path": "adaptation_paper/experiments/results/paper1-full-29d246-20260726-v1/gmm/gmm_k2_primary_60k.jsonl",
+          "bytes": 933406,
+          "sha256": "ea6e16955bc273c291b83069b6d5ee1b8473f9f52f2be0ad7538a94169c30e81"
+        },
+        "selection": {
+          "arm_id": "gmm_k2_primary_60k",
+          "separation_ratio": 5.0,
+          "seed": 42
+        },
+        "source_command": [
+          "python",
+          "-u",
+          "plot_schedule_evidence.py",
+          "--input",
+          "<source-run>/gmm/gmm_k2_primary_60k.jsonl",
+          "--out",
+          "<source-run>/figures/schedule_evidence.pdf",
+          "--arm-id",
+          "gmm_k2_primary_60k",
+          "--sr",
+          "5.0",
+          "--seed",
+          "42"
+        ]
+      }
+    },
+    {
+      "id": "gmm_money_panel",
+      "manuscript_asset": {
+        "path": "adaptation_paper/figures/gmm_money_panel.png",
+        "bytes": 150905,
+        "sha256": "6ddd146ff10b4ded8015e5327c3681cb7d0d619534d5560ce42523d2617138dc"
+      },
+      "provenance": {
+        "kind": "deterministic_regeneration_from_immutable_current_corpus",
+        "mcmc_rerun": false,
+        "generator": {
+          "path": "adaptation_paper/experiments/gmm_boundary.py",
+          "sha256": "410b22b9e4d979072f9ef677750e4e36313dda555a0885540e3820e6f41d447b"
+        },
+        "working_directory": ".",
+        "input": {
+          "path": "adaptation_paper/experiments/results/paper1-full-29d246-20260726-v1/gmm/gmm_k2_primary_60k.jsonl",
+          "bytes": 933406,
+          "sha256": "ea6e16955bc273c291b83069b6d5ee1b8473f9f52f2be0ad7538a94169c30e81",
+          "rows": 42,
+          "valid_rows": 42
+        },
+        "selection": {
+          "arm_id": "gmm_k2_primary_60k",
+          "correlated_axes": 2,
+          "budget": 60000,
+          "chains": 8,
+          "post_warmup_draws_per_chain": 1000,
+          "init_kind": "broad",
+          "separation_ratios": [
+            0.0,
+            0.5,
+            1.0,
+            1.5,
+            2.0,
+            3.0,
+            4.0,
+            5.0,
+            6.0,
+            7.0,
+            8.0,
+            9.0,
+            9.5,
+            10.0
+          ],
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "command": [
+          "python",
+          "adaptation_paper/experiments/gmm_boundary.py",
+          "--figures",
+          "adaptation_paper/experiments/results/paper1-full-29d246-20260726-v1/gmm/gmm_k2_primary_60k.jsonl",
+          "--out-dir",
+          "<output-directory>",
+          "--correlated-axes",
+          "2"
+        ],
+        "output_name": "gmm_money_panel.png",
+        "determinism_check": {
+          "replays": 2,
+          "replay_sha256": [
+            "6ddd146ff10b4ded8015e5327c3681cb7d0d619534d5560ce42523d2617138dc",
+            "6ddd146ff10b4ded8015e5327c3681cb7d0d619534d5560ce42523d2617138dc"
+          ],
+          "both_match_manuscript_asset": true
+        }
+      }
+    }
+  ]
+}

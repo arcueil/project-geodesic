@@ -1,0 +1,11 @@
+{
+  "error_cells": 0,
+  "expected_cells": 12,
+  "results": {
+    "bytes": 11415,
+    "path": "restart_ablation.jsonl",
+    "sha256": "703c6ca0156384f04ce54c44a028652f5d31a9752dd69a8cb76297e76d246b91"
+  },
+  "run_id": "exp497-full-29d246-v1",
+  "schema_version": "paper1-experiments-v1"
+}

@@ -1,0 +1,16 @@
+{
+  "error_cells": 0,
+  "events": {
+    "bytes": 219261,
+    "path": "schedule_configuration.events.jsonl",
+    "sha256": "77fb756b1d57f2005afc9c986c81c7b644705d8048232acaf93ecc4e2e9f6f02"
+  },
+  "expected_cells": 24,
+  "results": {
+    "bytes": 16016,
+    "path": "schedule_configuration.jsonl",
+    "sha256": "c0afcd5415210895574de134d96646091cd70dfa980734cc665c1a27a22abc9b"
+  },
+  "run_id": "exp497-full-29d246-v1",
+  "schema_version": "paper1-experiments-v1"
+}

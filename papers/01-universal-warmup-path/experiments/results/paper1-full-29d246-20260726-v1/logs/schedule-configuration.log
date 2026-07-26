@@ -1,0 +1,26 @@
+An NVIDIA GPU may be present on this machine, but a CUDA-enabled jaxlib is not installed. Falling back to cpu.
+ill_cond_50:seed=0:schedule=stan_doubling:buffer=reset epg=0.00950915
+ill_cond_50:seed=0:schedule=stan_doubling:buffer=accumulating epg=0.00748223
+ill_cond_50:seed=0:schedule=proportional_growing:buffer=reset epg=0.0121959
+ill_cond_50:seed=0:schedule=proportional_growing:buffer=accumulating epg=0.0116428
+ill_cond_50:seed=1:schedule=stan_doubling:buffer=reset epg=0.00992293
+ill_cond_50:seed=1:schedule=stan_doubling:buffer=accumulating epg=0.00914189
+ill_cond_50:seed=1:schedule=proportional_growing:buffer=reset epg=0.00860309
+ill_cond_50:seed=1:schedule=proportional_growing:buffer=accumulating epg=0.0117803
+ill_cond_50:seed=2:schedule=stan_doubling:buffer=reset epg=0.0121683
+ill_cond_50:seed=2:schedule=stan_doubling:buffer=accumulating epg=0.0127406
+ill_cond_50:seed=2:schedule=proportional_growing:buffer=reset epg=0.0133817
+ill_cond_50:seed=2:schedule=proportional_growing:buffer=accumulating epg=0.0158411
+radon:seed=0:schedule=stan_doubling:buffer=reset epg=0.0102565
+radon:seed=0:schedule=stan_doubling:buffer=accumulating epg=0.0109855
+radon:seed=0:schedule=proportional_growing:buffer=reset epg=0.0141838
+radon:seed=0:schedule=proportional_growing:buffer=accumulating epg=0.00290626
+radon:seed=1:schedule=stan_doubling:buffer=reset epg=0.00859037
+radon:seed=1:schedule=stan_doubling:buffer=accumulating epg=0.00949861
+radon:seed=1:schedule=proportional_growing:buffer=reset epg=0.0108447
+radon:seed=1:schedule=proportional_growing:buffer=accumulating epg=3.25378e-06
+radon:seed=2:schedule=stan_doubling:buffer=reset epg=0.00727526
+radon:seed=2:schedule=stan_doubling:buffer=accumulating epg=0.0096667
+radon:seed=2:schedule=proportional_growing:buffer=reset epg=0.0149535
+radon:seed=2:schedule=proportional_growing:buffer=accumulating epg=0.00290332
+{"error_cells": 0, "events": {"bytes": 219261, "path": "schedule_configuration.events.jsonl", "sha256": "77fb756b1d57f2005afc9c986c81c7b644705d8048232acaf93ecc4e2e9f6f02"}, "expected_cells": 24, "results": {"bytes": 16016, "path": "schedule_configuration.jsonl", "sha256": "c0afcd5415210895574de134d96646091cd70dfa980734cc665c1a27a22abc9b"}, "run_id": "exp497-full-29d246-v1", "schema_version": "paper1-experiments-v1"}

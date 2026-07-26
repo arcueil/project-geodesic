@@ -1,0 +1,1717 @@
+{
+  "completed_utc": "2026-07-26T10:05:20.129346+00:00",
+  "dependencies": {
+    "current_blackjax": {
+      "checkout_name": "blackjax",
+      "dirty": false,
+      "revision": "29d2468857be4de1644ca4470c2a4aa7f8137656"
+    },
+    "historical_blackjax": {
+      "checkout_name": "blackjax-paper1-2f629",
+      "dirty": false,
+      "revision": "2f62921848a93e7dc544ba9de8e29ef177e373b6"
+    },
+    "tuningfork": {
+      "checkout_name": "tuningfork",
+      "dirty": false,
+      "revision": "79ffb73250f5024dc511b3035d373d11474c2195"
+    }
+  },
+  "elapsed_seconds": 2530.220903404086,
+  "excluded_examples": [
+    "gmm25"
+  ],
+  "mode": "full",
+  "output_files": {
+    "figures/figure_bbp.pdf": {
+      "bytes": 46454,
+      "sha256": "b4ebb5008b4ce966ba378a7fdd200477bafb6afabd49bcefaefa8c84ef6f3080"
+    },
+    "figures/schedule_evidence.pdf": {
+      "bytes": 20277,
+      "sha256": "79ba270d69cd9f7ba78346c8a230f027697a12312fdc9416c61ede974d45b033"
+    },
+    "figures/schedule_evidence.png": {
+      "bytes": 50720,
+      "sha256": "bc42a92cde94aef8d328f9aca3ba46db708f8eaa26b740a22d86bb0b38abbe0e"
+    },
+    "fixed/clones.arrays/cell-0000.npz": {
+      "bytes": 1551584,
+      "sha256": "ab076e9ddc3a4b57a5c695c8d15ae603ea178d7de0b10438eb0e4f3b5f1d6213"
+    },
+    "fixed/clones.arrays/cell-0001.npz": {
+      "bytes": 1551421,
+      "sha256": "e667066e09a7295864475f061d1b04b11413907913eb80800f4ed7a72301dc75"
+    },
+    "fixed/clones.arrays/cell-0002.npz": {
+      "bytes": 1551594,
+      "sha256": "0b6f1e5359ce3863d7753ac53230317a544c494fd0317a16dc5b2209be97244d"
+    },
+    "fixed/clones.events.jsonl": {
+      "bytes": 17354,
+      "sha256": "f919dcd10c3fa68fe2ef2eddd3f7f82c0740600d59372f50effb3473de047492"
+    },
+    "fixed/clones.jsonl": {
+      "bytes": 43036,
+      "sha256": "8a24263eca92fb47d9ee02a6d569e4ac8c2286aec5439c703110da8df8c93130"
+    },
+    "fixed/clones.manifest.json": {
+      "bytes": 3963,
+      "sha256": "208c47d80a64fc774f63fa654b52e4d412645368b4d4cad0e7940e75a477a7fc"
+    },
+    "fixed/controls.arrays/cell-0000.npz": {
+      "bytes": 15432858,
+      "sha256": "7b65205683b4bd6d5fedd4cf688552373189ffe2e2b1e27ae2f2b622ec6c58d0"
+    },
+    "fixed/controls.arrays/cell-0001.npz": {
+      "bytes": 15482823,
+      "sha256": "99145b10dbade65b6f800dab73501edeb5106c6592b0537e34cee4d33e79ac7e"
+    },
+    "fixed/controls.arrays/cell-0002.npz": {
+      "bytes": 305502,
+      "sha256": "b6520cfe0a54812e9c314f9fe40664436d19dd7d381a23abb51f3ec488fd8d4e"
+    },
+    "fixed/controls.arrays/cell-0003.npz": {
+      "bytes": 305834,
+      "sha256": "3382a3878d2f0940601bb7781144d1be8224efb153b45af6ca5fd948685f18ba"
+    },
+    "fixed/controls.arrays/cell-0004.npz": {
+      "bytes": 614523,
+      "sha256": "59c7e24c7fcaa808838d011978a9758f52172741119908dfd5b3339a359db9a8"
+    },
+    "fixed/controls.events.jsonl": {
+      "bytes": 34164,
+      "sha256": "d7130902f13f4cbd6ca972204e3d761659e09eb519ce32354455d60fd8c6e446"
+    },
+    "fixed/controls.jsonl": {
+      "bytes": 98334,
+      "sha256": "b451df299b67e9143cd47b42e3a5f761db6b23bac918ba400a107045e43ddbd0"
+    },
+    "fixed/controls.manifest.json": {
+      "bytes": 6273,
+      "sha256": "4a54853dcf04c7ff4ce54cbab67565ab3bd46b05f04df95c7ed4edb5a23f6bd5"
+    },
+    "fixed/german.arrays/cell-0000.npz": {
+      "bytes": 6365168,
+      "sha256": "a7c33c264d4b8b5fdcf618019191f427e25c0ce1caf3fc71c5db09128538cd98"
+    },
+    "fixed/german.arrays/cell-0001.npz": {
+      "bytes": 6354560,
+      "sha256": "6522bdbfaf6d85cb955372508fb13e7d7c0b76b0ace7891729c2c52214226632"
+    },
+    "fixed/german.arrays/cell-0002.npz": {
+      "bytes": 6359669,
+      "sha256": "7ffe259f2ccb6885e4e1da06f9fcaa54631d6a5210a89d71b7507859f7a8d832"
+    },
+    "fixed/german.arrays/cell-0003.npz": {
+      "bytes": 6361778,
+      "sha256": "29908c68233e8f084a9c249d39085b705f206f146c0cd2e25bfe525cc6436d69"
+    },
+    "fixed/german.arrays/cell-0004.npz": {
+      "bytes": 6364480,
+      "sha256": "6c3fa1ef4cb20d90d3517675a072a26267d95e831b47afad5291df7b86a4bba6"
+    },
+    "fixed/german.events.jsonl": {
+      "bytes": 33630,
+      "sha256": "eeac32b166380cef3ea85c9ccdbb844a9b704807783b27c0d5c80ef7a3c0676c"
+    },
+    "fixed/german.jsonl": {
+      "bytes": 116297,
+      "sha256": "76ee3fb7b89c32c3c00801f69a888f490772eb2c768cf8eff5807a4fa984bc15"
+    },
+    "fixed/german.manifest.json": {
+      "bytes": 6499,
+      "sha256": "cc904af660fa901bfe62c482d5fb95d8db4fc55b05d811baccf1ce9d159f3b99"
+    },
+    "fixed/illcond.arrays/cell-0000.npz": {
+      "bytes": 12355221,
+      "sha256": "67a7527fb3cb953928a8ac14e2a269262663071f072f2798b1db45ef7b852ef1"
+    },
+    "fixed/illcond.arrays/cell-0001.npz": {
+      "bytes": 12353558,
+      "sha256": "78c96783ef28bf5a1fe9488fc72e16e5a6dc1716c3b78224c5e32b93ccb4fba2"
+    },
+    "fixed/illcond.arrays/cell-0002.npz": {
+      "bytes": 12356124,
+      "sha256": "57ab551661b501eb7ddc43500958bb969550b38ab831bdd13502a0a7827b7815"
+    },
+    "fixed/illcond.arrays/cell-0003.npz": {
+      "bytes": 12357716,
+      "sha256": "144004cd079078b807361da3f8dc63ca3abce1710e51da22c1612a88d7ee46a0"
+    },
+    "fixed/illcond.arrays/cell-0004.npz": {
+      "bytes": 12355804,
+      "sha256": "61b242e095e1bb2326b086fe8daa0962e6bd6e2937d4d6a758f2857642492ad9"
+    },
+    "fixed/illcond.arrays/cell-0005.npz": {
+      "bytes": 12355463,
+      "sha256": "2ad10035d2b144537240303ab8fecd390ee6a6405077863154e7350cfc9983be"
+    },
+    "fixed/illcond.arrays/cell-0006.npz": {
+      "bytes": 12356439,
+      "sha256": "7ffdd130c857417d429c8816c36481008b1967c2d8898c2397d313cca608e453"
+    },
+    "fixed/illcond.events.jsonl": {
+      "bytes": 39057,
+      "sha256": "1dc842e6e71bccd4368bffa0b7b2fb40196dc19e1b4f969b5e5ce8566307f097"
+    },
+    "fixed/illcond.jsonl": {
+      "bytes": 227927,
+      "sha256": "f8e52750d29b854668cd1be80aeb3ddbc381209fdf242b20fcbafc86b172fd1f"
+    },
+    "fixed/illcond.manifest.json": {
+      "bytes": 8890,
+      "sha256": "341de8eac8108a77ba7a7e1721514b78362073dcf77a8dfe552c7a824fd8ce59"
+    },
+    "fixed/manual_german.arrays/cell-0000.npz": {
+      "bytes": 797465,
+      "sha256": "7afe3ce46c04fd2efd12b0935bf7bd77e8cde1b95b8c41133a8d9af5453e3804"
+    },
+    "fixed/manual_german.arrays/cell-0001.npz": {
+      "bytes": 799186,
+      "sha256": "76de12c9e04d9eedf16f0e23194794323348e35bb02a8d7600d9cc427a34f8e8"
+    },
+    "fixed/manual_german.arrays/cell-0002.npz": {
+      "bytes": 798429,
+      "sha256": "8a533fb35467f068b6f29d475a7f85229dbf7c038ca2c526b06af2c95d8fce0b"
+    },
+    "fixed/manual_german.arrays/cell-0003.npz": {
+      "bytes": 798345,
+      "sha256": "879f1ad419f079a2338bceea4d46fbea34789982426c4bb2f4ba707a96837af5"
+    },
+    "fixed/manual_german.arrays/cell-0004.npz": {
+      "bytes": 798546,
+      "sha256": "2a46fa5be9152724a6d641a87b5db97d1c665852776951a476b50ed4c8535f39"
+    },
+    "fixed/manual_german.arrays/cell-0005.npz": {
+      "bytes": 800221,
+      "sha256": "cfe1e8c1b91745cde33bd0ec0b653f7a65ecd2442a7aae0202c6facf5a880a2f"
+    },
+    "fixed/manual_german.arrays/cell-0006.npz": {
+      "bytes": 798627,
+      "sha256": "311c0d1806cedcba707d16a6b3a9fa62e35bab43d4c8269e751a2db2d4fad90f"
+    },
+    "fixed/manual_german.arrays/cell-0007.npz": {
+      "bytes": 800204,
+      "sha256": "e752813058563a4b42a9ac0b191d7b0ee7a92df8e15c165ff5fc52b5a68d8c91"
+    },
+    "fixed/manual_german.arrays/cell-0008.npz": {
+      "bytes": 796479,
+      "sha256": "7606a9875a775a891f41422e6b13ab0b1742f214e9d9a5b4f7b5aaeb9ec5e5a9"
+    },
+    "fixed/manual_german.arrays/cell-0009.npz": {
+      "bytes": 799235,
+      "sha256": "20959aeecaf04b000f04ac21ba3a19f1996b10e94d1834b1cd685f8eaaf26d31"
+    },
+    "fixed/manual_german.events.jsonl": {
+      "bytes": 1173,
+      "sha256": "e8f592bf591ea77527e08b106890f31b1dc95c28bb09bfaf5dcc1c0e92639f33"
+    },
+    "fixed/manual_german.jsonl": {
+      "bytes": 36202,
+      "sha256": "cdf5ded8ec43c64bd029bf1490114a5636477eef765a58a6889225c788b42456"
+    },
+    "fixed/manual_german.manifest.json": {
+      "bytes": 11586,
+      "sha256": "54d913f8361aff44730a210b07e040126c4dcfde9dfda0c3a8356d188efab362"
+    },
+    "fixed/manual_illcond.arrays/cell-0000.npz": {
+      "bytes": 1546440,
+      "sha256": "68ffa0c5134090cf9b4a75cb4cc65362851de4f2882fb7d57b968af9500c63a3"
+    },
+    "fixed/manual_illcond.arrays/cell-0001.npz": {
+      "bytes": 1548938,
+      "sha256": "f64120114d4e0fa784574a9fbff7f11dbdcef1cdb0b840cdcdd55829e2932833"
+    },
+    "fixed/manual_illcond.arrays/cell-0002.npz": {
+      "bytes": 1547305,
+      "sha256": "be14eaa28d2b6294328bc32bb7ce502559254c3c5e7b15ea2fa89ccc77bdd08e"
+    },
+    "fixed/manual_illcond.arrays/cell-0003.npz": {
+      "bytes": 1548802,
+      "sha256": "5ebf8da5260cb86e7091444eaf5eabbe12d7488cb756a7429d982bbded023ee9"
+    },
+    "fixed/manual_illcond.arrays/cell-0004.npz": {
+      "bytes": 1547053,
+      "sha256": "a3aeace961590c28f9f9b4fb13ec68907f224cfe382cd9643eca4cb368a38911"
+    },
+    "fixed/manual_illcond.arrays/cell-0005.npz": {
+      "bytes": 1549000,
+      "sha256": "59c8f9d7ae872fdf955d435a295cb8b0c69d231de051f170de75ae67e7a1ebaa"
+    },
+    "fixed/manual_illcond.arrays/cell-0006.npz": {
+      "bytes": 1547471,
+      "sha256": "4d5d27a496bb1f73d12796b180c7f7bc1fbb962198f82fd08d659b93bdd6652d"
+    },
+    "fixed/manual_illcond.arrays/cell-0007.npz": {
+      "bytes": 1548887,
+      "sha256": "3d42839b1bff59180818346140e634b2a15c629266eb9f589f27f9d8eb43a76e"
+    },
+    "fixed/manual_illcond.arrays/cell-0008.npz": {
+      "bytes": 1546311,
+      "sha256": "10af51ac3d3d31b6c7648d5097b5bf92acd38d1bf7bf0e946584eb26258793b2"
+    },
+    "fixed/manual_illcond.arrays/cell-0009.npz": {
+      "bytes": 1548938,
+      "sha256": "efc14e7af2b1e4b2076e2dee8948897447a9cab7fb6bab800b55e090e36d15be"
+    },
+    "fixed/manual_illcond.arrays/cell-0010.npz": {
+      "bytes": 1547594,
+      "sha256": "63bafc7af58f6afc2f8b295a624e88c7b1c6817a0904240efa1a51463bd25db2"
+    },
+    "fixed/manual_illcond.arrays/cell-0011.npz": {
+      "bytes": 1548837,
+      "sha256": "a3e5b673b4eb4e92d1c5a80bb0a55d2a776df855983da5602af6361c03108f06"
+    },
+    "fixed/manual_illcond.arrays/cell-0012.npz": {
+      "bytes": 1547367,
+      "sha256": "ffbcff871d2d78df6b3d9683facfe9cbe3b3369e18765b47cab14b02069b1c2b"
+    },
+    "fixed/manual_illcond.arrays/cell-0013.npz": {
+      "bytes": 1548905,
+      "sha256": "34e0588d3467442bce282ad48fb55eda85f1be1faaae534e85ba9c6ccae9914c"
+    },
+    "fixed/manual_illcond.events.jsonl": {
+      "bytes": 1178,
+      "sha256": "31cda51499049f9a9a231f15dd886f1526bfce6086145fce9926f615d66ca7c6"
+    },
+    "fixed/manual_illcond.jsonl": {
+      "bytes": 64526,
+      "sha256": "92e5e9709f2f6b1f76b3d2f3dceee50861caf59d92d43c333bd226ef62012f3b"
+    },
+    "fixed/manual_illcond.manifest.json": {
+      "bytes": 15994,
+      "sha256": "06d1fa1ffff262303b17af2c9ec71a011c0a1d315dbb834508a799acebb83ae4"
+    },
+    "fixed/manual_population_german.arrays/cell-0000.npz": {
+      "bytes": 6376463,
+      "sha256": "8c3cc9a80a97cf17bd796236e056c648917bd29e71a59104b2ab1b7be849e2fd"
+    },
+    "fixed/manual_population_german.arrays/cell-0001.npz": {
+      "bytes": 6387460,
+      "sha256": "cd00eefca0cad376939dfc4cf048ee553f1e5943c3e82b839ec8ebd70d38cb3e"
+    },
+    "fixed/manual_population_german.arrays/cell-0002.npz": {
+      "bytes": 6378055,
+      "sha256": "4f74f2d90bf0e06efbb6e07d5fe0ef90824aa05d1334d2ea0415b14169fd5de2"
+    },
+    "fixed/manual_population_german.arrays/cell-0003.npz": {
+      "bytes": 6384494,
+      "sha256": "c7d0d4336a43b9aee1dfee64858ea409cecb961152e8f5a4b6752a028720b35d"
+    },
+    "fixed/manual_population_german.arrays/cell-0004.npz": {
+      "bytes": 6378608,
+      "sha256": "d909e524c5e1854f6ea0b8d61a64162ce02ce491f2bdbb9593cf0ab505129be2"
+    },
+    "fixed/manual_population_german.arrays/cell-0005.npz": {
+      "bytes": 6384796,
+      "sha256": "e7437ed9e39ed6f13d7681d8c07a87ecaa093b2472ecc14d11b432fdc20f4efc"
+    },
+    "fixed/manual_population_german.arrays/cell-0006.npz": {
+      "bytes": 6377918,
+      "sha256": "32ad595301098dd83830efdb4db444f6aeed722dfc3e112f3191f50f2f1d9b6f"
+    },
+    "fixed/manual_population_german.arrays/cell-0007.npz": {
+      "bytes": 6385628,
+      "sha256": "8106ecdf4852fa5d508a522e6f3a704063c22d08018c5a6682640e1724f09241"
+    },
+    "fixed/manual_population_german.arrays/cell-0008.npz": {
+      "bytes": 6375096,
+      "sha256": "98cd709dd125ea121e6b012bfd6a4c312b4d63ffbb522170fb0012ee3adab60a"
+    },
+    "fixed/manual_population_german.arrays/cell-0009.npz": {
+      "bytes": 6385743,
+      "sha256": "3197bf48742682695f0d341ee395218169d4f85c94052c4852769f942c992f02"
+    },
+    "fixed/manual_population_german.events.jsonl": {
+      "bytes": 1228,
+      "sha256": "5a787e5eec44e7c60f53012e743f33e419392ea809f1fba9129862353f45fe54"
+    },
+    "fixed/manual_population_german.jsonl": {
+      "bytes": 161941,
+      "sha256": "0f42e1d0c9ce2902efedc74f1f9d26a9b8f01a981b8dc0b7f3e3983ce97f61cf"
+    },
+    "fixed/manual_population_german.manifest.json": {
+      "bytes": 12691,
+      "sha256": "3a225d0379e6a7e611e210914e340e5d538e7215a39033fcc8f39376876f2255"
+    },
+    "fixed/manual_population_illcond.arrays/cell-0000.npz": {
+      "bytes": 12360336,
+      "sha256": "7e4829a3908a6138118d084f722e0ec0c00feed36be49894bcbef3231d44cd4f"
+    },
+    "fixed/manual_population_illcond.arrays/cell-0001.npz": {
+      "bytes": 12370136,
+      "sha256": "bd84e2115bf0b243d80875cdd02ad5036a2e312d7aeb17b7c4118ab5032c6feb"
+    },
+    "fixed/manual_population_illcond.arrays/cell-0002.npz": {
+      "bytes": 12361445,
+      "sha256": "943012296990c49dc3cbcdcdfe1db047ebe40f0f63434c25af66adfdc6892b28"
+    },
+    "fixed/manual_population_illcond.arrays/cell-0003.npz": {
+      "bytes": 12370192,
+      "sha256": "ff042259452c30cf516ad5c4ada11ba3e8094f900e866548be626dc36601118b"
+    },
+    "fixed/manual_population_illcond.arrays/cell-0004.npz": {
+      "bytes": 12361264,
+      "sha256": "31b43e9545be91576e368e9aedc2b8fa5822b93c280e96e06d329a2dda920de7"
+    },
+    "fixed/manual_population_illcond.arrays/cell-0005.npz": {
+      "bytes": 12370221,
+      "sha256": "4325d399faa7cdeed94ec6714ccc084b51f93aa8716f5ff96574f3edae734a5a"
+    },
+    "fixed/manual_population_illcond.arrays/cell-0006.npz": {
+      "bytes": 12363367,
+      "sha256": "199b0e3cb9226acc578f8106f0075482b57fcea8bca80c2e09fde6ab3701e0ba"
+    },
+    "fixed/manual_population_illcond.arrays/cell-0007.npz": {
+      "bytes": 12370210,
+      "sha256": "813deec14ab232ebc4821ade70530f160d1cb42574745b0d32f36c0c21c04bcf"
+    },
+    "fixed/manual_population_illcond.arrays/cell-0008.npz": {
+      "bytes": 12359720,
+      "sha256": "da783a1fdc23574b9572b921ff7bf3501ade3f02cce9a75ebcfea284bfa47ff1"
+    },
+    "fixed/manual_population_illcond.arrays/cell-0009.npz": {
+      "bytes": 12369927,
+      "sha256": "b5c72a3409e8731cdeccb0e21c1005c7787c732ce8559f9314da83b8f83a4586"
+    },
+    "fixed/manual_population_illcond.arrays/cell-0010.npz": {
+      "bytes": 12360339,
+      "sha256": "3e1857cc28780de0d3ed801a352bede258d071c38edca37d9be0fb045654d031"
+    },
+    "fixed/manual_population_illcond.arrays/cell-0011.npz": {
+      "bytes": 12370296,
+      "sha256": "6abd6930d98eeb4310cd3368ffa2b60971358e26c33fb403704c4ccf8a95de65"
+    },
+    "fixed/manual_population_illcond.arrays/cell-0012.npz": {
+      "bytes": 12360213,
+      "sha256": "8d2d04f2d185aba914ab13fd863bc1c3d070aee74bf8c216e548b36cd5492603"
+    },
+    "fixed/manual_population_illcond.arrays/cell-0013.npz": {
+      "bytes": 12369887,
+      "sha256": "f6f785629aa8234e1864b89becad276c56ddaf2f72a740fdb1d3714766b1d91b"
+    },
+    "fixed/manual_population_illcond.events.jsonl": {
+      "bytes": 1233,
+      "sha256": "1e498d55fd586f3cca31384a5904cabfdb96e407b7859b8bb88fe212671c51b1"
+    },
+    "fixed/manual_population_illcond.jsonl": {
+      "bytes": 361823,
+      "sha256": "62fd74b0de30a091255444d94953bbf95bab0791432029404f98c97a742c5e43"
+    },
+    "fixed/manual_population_illcond.manifest.json": {
+      "bytes": 17523,
+      "sha256": "a9e61c5467300d0a731a952e42e4e74c3b015db7419788ec36168abf7efc2d50"
+    },
+    "fixed/radon_400k.arrays/cell-0000.npz": {
+      "bytes": 12036929,
+      "sha256": "a281f55efb059f58e96ed0590b5cdfb67128bfea788f849ecd97b38ce4ffe0f8"
+    },
+    "fixed/radon_400k.arrays/cell-0001.npz": {
+      "bytes": 12030140,
+      "sha256": "b2de536cf4371004c8fead86769668990447a779a9b352927b6701f1906d43e4"
+    },
+    "fixed/radon_400k.events.jsonl": {
+      "bytes": 18205,
+      "sha256": "75f9c639932976a5f41907ebdb892ee146f61530e2c5b7352fdf32d5bd9effe8"
+    },
+    "fixed/radon_400k.jsonl": {
+      "bytes": 105174,
+      "sha256": "a0b575bc799b2032ae5d8be588a1d14ea80bc992713eaaede9f2ba21563a2393"
+    },
+    "fixed/radon_400k.manifest.json": {
+      "bytes": 2832,
+      "sha256": "8edb4c7fab9d798d41f30dd1b51d546610ed47226a87c9628677fb135b0853dc"
+    },
+    "fixed/radon_50k.arrays/cell-0000.npz": {
+      "bytes": 12038228,
+      "sha256": "02ca0dde0b5948d5b5a9878cabc333e82a997036755acb3a5ab6c2973014e617"
+    },
+    "fixed/radon_50k.arrays/cell-0001.npz": {
+      "bytes": 12037969,
+      "sha256": "075dbc84164992cc7bcbcdf59ab5ea56d152aa59ea4d0d50fefcf7de829e9efd"
+    },
+    "fixed/radon_50k.events.jsonl": {
+      "bytes": 9548,
+      "sha256": "24260fa867294422f8bf9dd2e5958e4dd2d6ff40d19612aa6cb896cd11a6fc12"
+    },
+    "fixed/radon_50k.jsonl": {
+      "bytes": 53373,
+      "sha256": "9720d6d314c4bf6bbdee632814d0ff2fefebee85e015ddd3dff57617dec295d9"
+    },
+    "fixed/radon_50k.manifest.json": {
+      "bytes": 2820,
+      "sha256": "53e75e66e1c469dc6ee1df18432e8fb76e25718723f814953fd49990983220bb"
+    },
+    "fixed/refusals.arrays/cell-0000.npz": {
+      "bytes": 266612,
+      "sha256": "c2fd167e38e33d4b79a40ae07bfc8e799f49d6b373588dcf2acf2d0191c3c739"
+    },
+    "fixed/refusals.arrays/cell-0001.npz": {
+      "bytes": 297045,
+      "sha256": "cfeafa1519755fb0fcec6960140d62312c47e232241f5f6782767959db81aad9"
+    },
+    "fixed/refusals.arrays/cell-0002.npz": {
+      "bytes": 300828,
+      "sha256": "d73125ef4600f9d038d213f6bf0b43b3b3694cfdc9961600421a7339c8cb33a5"
+    },
+    "fixed/refusals.arrays/cell-0003.npz": {
+      "bytes": 64414,
+      "sha256": "902e90b29fa0cf099040600350427cdf2f163b1cddb01676628be05ed4787ba9"
+    },
+    "fixed/refusals.arrays/cell-0004.npz": {
+      "bytes": 63339,
+      "sha256": "9040e65f0c332849f1c3ee762637238619afd68631d3f3a392da3c65f2471758"
+    },
+    "fixed/refusals.events.jsonl": {
+      "bytes": 50675,
+      "sha256": "ca1bf55fbc822a3295b5de33121ac63d2cca14aa7dbaeb855d0c14ff9f1616f8"
+    },
+    "fixed/refusals.jsonl": {
+      "bytes": 62032,
+      "sha256": "e07600f419b5a66023b7bb0e8642f312b01c5f394e93ed7d4d3362f45e59ce2d"
+    },
+    "fixed/refusals.manifest.json": {
+      "bytes": 6251,
+      "sha256": "b8beec94b0de166e474bac040b50834951297ba54f1f27d48d6997a764a61318"
+    },
+    "gmm/gmm_k2_budget_120k.jsonl": {
+      "bytes": 1182850,
+      "sha256": "448b00744d7a054db39b2fd34830b6cf1cf5fc41e31839b3f0f060ce9c50424a"
+    },
+    "gmm/gmm_k2_budget_20k.jsonl": {
+      "bytes": 652492,
+      "sha256": "691604bcfb18fb65ef5100c6177f081f8e174e36511a55b4d0dcda896be37ced"
+    },
+    "gmm/gmm_k2_matched_diagonal_60k.jsonl": {
+      "bytes": 89594,
+      "sha256": "978ab5a8908e39461755ce6eac8d98237f79b967596873a5c7b589c5227e743d"
+    },
+    "gmm/gmm_k2_primary_60k.jsonl": {
+      "bytes": 933406,
+      "sha256": "ea6e16955bc273c291b83069b6d5ee1b8473f9f52f2be0ad7538a94169c30e81"
+    },
+    "gmm/gmm_k2_single_chain_60k.jsonl": {
+      "bytes": 369981,
+      "sha256": "d4fed98d3cafa93e1983fa930b0b3e88bfaae53eedcc8f6adf45a5a4654e08a9"
+    },
+    "gmm/gmm_k3_matched_diagonal_60k.jsonl": {
+      "bytes": 1443819,
+      "sha256": "2e8ccb3ab29b326c516d5c3c24ef53e8a5c1eafd6bb3e544443a3477cdd46003"
+    },
+    "gmm/gmm_k3_primary_60k.jsonl": {
+      "bytes": 937455,
+      "sha256": "58ae57a57f4d32e93ad6274b84047f332aee08fc2f9523a32354ab658b942460"
+    },
+    "gmm/provenance.json": {
+      "bytes": 2912,
+      "sha256": "ef2f58c191efd1d0d3adb6dd150e52c60b581e5dc2f52397afc10157af4a071d"
+    },
+    "gmm/run_manifest.json": {
+      "bytes": 6149,
+      "sha256": "63a6d92c57fa8590d9d033a7ae360be8b2f7a325148ab76c477535a5a25a4ed4"
+    },
+    "kernel/kernel_family.events.jsonl": {
+      "bytes": 67546,
+      "sha256": "a565b44b17a14234041ce50c43ed9b26f33c8c9f69362bf9744d272a53326156"
+    },
+    "kernel/kernel_family.jsonl": {
+      "bytes": 191689,
+      "sha256": "720ffbae8d196ec8f1de0118319c5c29d24617f75532c8a5defc517932e7573f"
+    },
+    "kernel/kernel_family.manifest.json": {
+      "bytes": 454,
+      "sha256": "fe943257448704575e2aeecedfa02e280669887f05edd24870893806c47a7f96"
+    },
+    "logs/bbp-calibration.log": {
+      "bytes": 39,
+      "sha256": "81c723e0e23bb353c4226516ac0a0211cc24dd27c5d61339c7a6cf8400cc1b2b"
+    },
+    "logs/controlled-gmm.log": {
+      "bytes": 13320,
+      "sha256": "641c00b85ebba3dcfe6a13d1fe2f8124b6da0810f486421f432ec670ff70970e"
+    },
+    "logs/fixed-clones.log": {
+      "bytes": 2619,
+      "sha256": "194be1826f0675c96f6656c12d14f18df479adb373adebd09ab8297525ba26ff"
+    },
+    "logs/fixed-controls.log": {
+      "bytes": 3994,
+      "sha256": "461bcbc80e0f3a3d368c134d5b03c1a54bb500bc85fcdaecd6d356ac5efbaee5"
+    },
+    "logs/fixed-german.log": {
+      "bytes": 4047,
+      "sha256": "1f185a1ff93cd1274ac397296b2732aea1f00254abb16a2e76148811435dbfdd"
+    },
+    "logs/fixed-illcond.log": {
+      "bytes": 5430,
+      "sha256": "127d2818e10e427e22b80eefcf0d30592ec4fa5429eccc10e1123d287e89b1de"
+    },
+    "logs/fixed-manual-german.log": {
+      "bytes": 7667,
+      "sha256": "75e279683bb2bc2c857c6ae199e36f7ec16cda7dbd0574e1e958bda867e0f662"
+    },
+    "logs/fixed-manual-illcond.log": {
+      "bytes": 10476,
+      "sha256": "e99f3c6d2b9d5dd7b6de4c6924af1213b22a3de4d0f44b03c87d262691276042"
+    },
+    "logs/fixed-manual-population-german.log": {
+      "bytes": 7965,
+      "sha256": "9ac8f8d15efd4b38779d17caee7620e445db05c9e5362b7b4abbe6535cba56b0"
+    },
+    "logs/fixed-manual-population-illcond.log": {
+      "bytes": 10870,
+      "sha256": "9bbef1d51a5319f35fc243aa001b8e53db215c6136261be66e2061f9c7556529"
+    },
+    "logs/fixed-radon-400k.log": {
+      "bytes": 1945,
+      "sha256": "16e2ff73a055aea3642b67ae7f5b3ee04697a70ea00006e5d9e3ec3bcd2c1292"
+    },
+    "logs/fixed-radon-50k.log": {
+      "bytes": 1933,
+      "sha256": "7f8621c5b05ed15984129b7fe0930816b51bc0c0a2e515524f1c37a72de8e56a"
+    },
+    "logs/fixed-refusals.log": {
+      "bytes": 4071,
+      "sha256": "071c1c6835f20471d4de88e6c917b495715752ad00dec70b2fd42e490f7b42d3"
+    },
+    "logs/kernel-family.log": {
+      "bytes": 1461,
+      "sha256": "a64498ace68a7c4edd651a35e5ec2268bd01a4fce600bbd35a5a071901940fc2"
+    },
+    "logs/restart-ablation.log": {
+      "bytes": 1142,
+      "sha256": "6dd0734a78e221bf20c13f5029658cba108092c129bfb4dfcbb258314adcb86a"
+    },
+    "logs/schedule-configuration.log": {
+      "bytes": 2295,
+      "sha256": "5753c8a33d3300d79c76ff7157b92d8a236d59cf287b8585a1a567f964f52993"
+    },
+    "logs/schedule-evidence-pdf.log": {
+      "bytes": 46,
+      "sha256": "83dcc9d833b67e455e6946eaf81b6706a0e6d5cf4c60d6eba954aedc54a699cd"
+    },
+    "logs/schedule-evidence-png.log": {
+      "bytes": 46,
+      "sha256": "096b783dc903ffc953006919c2aeb45f166a2dd361c8e5a82a82e795476f072c"
+    },
+    "logs/shared-step-current.log": {
+      "bytes": 1230,
+      "sha256": "c03631284491984428f0328aac48c6815f4f0fe08de94714b5f8b03dc6c69a73"
+    },
+    "logs/shared-step-historical.log": {
+      "bytes": 1302,
+      "sha256": "b4c88b5ca858127190fbb14bc4db5c70b1c87994f34a9102e89e5c14b96a11cd"
+    },
+    "orchestrator_provenance.json": {
+      "bytes": 21825,
+      "sha256": "d8407d00cb06a3d35b520cc30d5707191b61b01fd1d0ba238274e3c40b2a4a0c"
+    },
+    "restart/restart_ablation.jsonl": {
+      "bytes": 11415,
+      "sha256": "703c6ca0156384f04ce54c44a028652f5d31a9752dd69a8cb76297e76d246b91"
+    },
+    "restart/restart_ablation.manifest.json": {
+      "bytes": 288,
+      "sha256": "3da42493b2454db5d8fbc61bfe20e48607298e47d709f0cda02dd9ab5ef486ad"
+    },
+    "schedule/schedule_configuration.events.jsonl": {
+      "bytes": 219261,
+      "sha256": "77fb756b1d57f2005afc9c986c81c7b644705d8048232acaf93ecc4e2e9f6f02"
+    },
+    "schedule/schedule_configuration.jsonl": {
+      "bytes": 16016,
+      "sha256": "c0afcd5415210895574de134d96646091cd70dfa980734cc665c1a27a22abc9b"
+    },
+    "schedule/schedule_configuration.manifest.json": {
+      "bytes": 466,
+      "sha256": "72be551c895059e8ef873b38f94554d223cabf961e457ae3e307d3e1bbef7dfb"
+    },
+    "shared_step/current.jsonl": {
+      "bytes": 13811,
+      "sha256": "a984d6ab2383123370a120f5adb47863fe7c50814dcc45e7580f7ff3d60e5fbb"
+    },
+    "shared_step/current.manifest.json": {
+      "bytes": 308,
+      "sha256": "3eb6882a55d8dd6153040afcde659edee1fcfe94146e54a8b08ff3ef75dbed7c"
+    },
+    "shared_step/historical.jsonl": {
+      "bytes": 13883,
+      "sha256": "1bc3dea4e3a3ad617860c035eba03679cfca8e655aa261de853f58296554a7cf"
+    },
+    "shared_step/historical.manifest.json": {
+      "bytes": 314,
+      "sha256": "c27d2ac438546ddcd9d58fc1c759ae2adfa503e54ec35fb29ec02682b4446b6d"
+    }
+  },
+  "planned_section_counts": {
+    "fixed_cells": 77,
+    "gmm_cells": 239,
+    "kernel_calibrations": 6,
+    "kernel_result_rows": 24,
+    "kernel_route_cells": 12,
+    "restart_cells": 12,
+    "schedule_cells": 24,
+    "shared_current_cells": 12,
+    "shared_historical_cells": 12
+  },
+  "resource_limits": {
+    "mechanism": "runcap",
+    "outer_memory_cap": "80G",
+    "scope": "full_corpus_orchestrator_and_children"
+  },
+  "run_id": "exp497-full-29d246-v1",
+  "schema_version": "paper1-full-corpus-v1",
+  "source_sha256": {
+    "artifact_manifest.json": "50ac90c615eb3adc784e4c9650141968c33824539ef69aa97baa915f613b62ad",
+    "gmm_boundary.py": "410b22b9e4d979072f9ef677750e4e36313dda555a0885540e3820e6f41d447b",
+    "gmm_k3_ablation.py": "a4738e24471fddcb03bab03ba030e9c43f2291bb938d951a9279e3e96cede8ee",
+    "gmm_suite.py": "6dec819a424d4a748ce9d371790ea4c065ccbf7a35f005181c02d070482c60e5",
+    "make_figure_bbp.py": "45055e806d7a158da228f56bc073b81e5788075f1cbc80ad052993eeec536932",
+    "plot_schedule_evidence.py": "fb799d4614154791793394ad5dc69f6e68aa431bfd6a4943a9465c53e3212b0d",
+    "run_fixed_suite.py": "bf4bde09fe5d58756f15dfe5408d7e8e739542144eaede19b53bb843dcb53115",
+    "run_full_corpus.py": "d4589e0b0a5b0e933cf9cb48e08ea872f7a59a9d71bbcb02293c46b4bf11ea99",
+    "run_gmm_suite.py": "0c65952a00f9dbf3d639566c8329d1d2c81ce962ea186f0737fbe0ec8fee0af1",
+    "run_kernel_family.py": "8e32e5e40b429bbfdd6aa17ba88a2fe85d4604a613ab5b1b4f4c3ffcc8c313d3",
+    "run_restart_ablation.py": "9dac3c7d4fa128c3b2bf1de4a234d3d4c2c3e7ffc206f96e05604437b552cf99",
+    "run_schedule_comparison.py": "c9fb1d7ef4d0a292daa761e9a86c72998fb33220590498ff6e5877489aadc3d8",
+    "run_shared_step_size.py": "5147388357971d2ebc35a8f7d620982125cf34ee3cfd7240cd96f63b3244010d",
+    "suite_common.py": "0d6d9a5207017326e68bde03f5045af4a8d722e4d29ab32c1cc0d40a5de55b02",
+    "test_full_corpus.py": "09207986d13307aa11272c3f53ca49a539f468cb271bd63c9326118aef72b12c",
+    "test_gmm_boundary.py": "ecfe6b49df2b38409a23b5f34861b775e75bbceda57e4ff7e86fe68215a6fc2b",
+    "test_gmm_suite.py": "4df1526215344421fa17fbd71efbced229709a6f1de6d5922247f2114d62b2e9",
+    "test_make_figure_bbp.py": "1d7b526ab09bd71c8ead860c12a05747804373281e75b976811e4e70143fbd3e",
+    "test_window_events.py": "9c55f2af7af35771a5c2c04a81755d7ecdbff94b40da1299b7b7e522d0b9edf2",
+    "validate_full_results.py": "612a8fefeafa367f311315dcba5b7a1a02042b328aba4bb3055ae09b88d860fa",
+    "validate_gmm_results.py": "97faf4ccb5fe7e3f76f7534d169bd865477d1ed801cb25172b604de5153f2129",
+    "window_events.py": "7c80be1dfc37e7c9f891cf75706b237ea7c98297c0520ccf0354e69522b76621"
+  },
+  "started_utc": "2026-07-26T09:23:09.879855+00:00",
+  "status": "producers_complete",
+  "tasks": [
+    {
+      "command": [
+        "python",
+        "-u",
+        "run_fixed_suite.py",
+        "--block",
+        "illcond",
+        "--out",
+        "<run-dir>/fixed/illcond.jsonl",
+        "--events-out",
+        "<run-dir>/fixed/illcond.events.jsonl",
+        "--arrays-dir",
+        "<run-dir>/fixed/illcond.arrays",
+        "--run-id",
+        "<run-id>"
+      ],
+      "completed_utc": "2026-07-26T09:24:42.756442+00:00",
+      "elapsed_seconds": 92.87294688000111,
+      "environment": "current",
+      "environment_overrides": {
+        "JAX_ENABLE_X64": "1",
+        "JAX_PLATFORM_NAME": "cpu",
+        "MPLCONFIGDIR": "/tmp/paper1-matplotlib",
+        "PAPER1_RUNCAP": "80G",
+        "PYTHONNOUSERSITE": "1",
+        "PYTHONPATH": "<current-blackjax>:<tuningfork>",
+        "PYTHONUNBUFFERED": "1"
+      },
+      "log": {
+        "bytes": 5430,
+        "path": "logs/fixed-illcond.log",
+        "sha256": "127d2818e10e427e22b80eefcf0d30592ec4fa5429eccc10e1123d287e89b1de"
+      },
+      "missing_outputs": [],
+      "outputs": {
+        "fixed/illcond.events.jsonl": {
+          "bytes": 39057,
+          "sha256": "1dc842e6e71bccd4368bffa0b7b2fb40196dc19e1b4f969b5e5ce8566307f097"
+        },
+        "fixed/illcond.jsonl": {
+          "bytes": 227927,
+          "sha256": "f8e52750d29b854668cd1be80aeb3ddbc381209fdf242b20fcbafc86b172fd1f"
+        },
+        "fixed/illcond.manifest.json": {
+          "bytes": 8890,
+          "sha256": "341de8eac8108a77ba7a7e1721514b78362073dcf77a8dfe552c7a824fd8ce59"
+        }
+      },
+      "record_type": "task_result",
+      "returncode": 0,
+      "schema_version": "paper1-full-corpus-v1",
+      "started_utc": "2026-07-26T09:23:09.883118+00:00",
+      "suite": "fixed-suite",
+      "task_id": "fixed-illcond"
+    },
+    {
+      "command": [
+        "python",
+        "-u",
+        "run_fixed_suite.py",
+        "--block",
+        "german",
+        "--out",
+        "<run-dir>/fixed/german.jsonl",
+        "--events-out",
+        "<run-dir>/fixed/german.events.jsonl",
+        "--arrays-dir",
+        "<run-dir>/fixed/german.arrays",
+        "--run-id",
+        "<run-id>"
+      ],
+      "completed_utc": "2026-07-26T09:25:32.809215+00:00",
+      "elapsed_seconds": 50.051429789018584,
+      "environment": "current",
+      "environment_overrides": {
+        "JAX_ENABLE_X64": "1",
+        "JAX_PLATFORM_NAME": "cpu",
+        "MPLCONFIGDIR": "/tmp/paper1-matplotlib",
+        "PAPER1_RUNCAP": "80G",
+        "PYTHONNOUSERSITE": "1",
+        "PYTHONPATH": "<current-blackjax>:<tuningfork>",
+        "PYTHONUNBUFFERED": "1"
+      },
+      "log": {
+        "bytes": 4047,
+        "path": "logs/fixed-german.log",
+        "sha256": "1f185a1ff93cd1274ac397296b2732aea1f00254abb16a2e76148811435dbfdd"
+      },
+      "missing_outputs": [],
+      "outputs": {
+        "fixed/german.events.jsonl": {
+          "bytes": 33630,
+          "sha256": "eeac32b166380cef3ea85c9ccdbb844a9b704807783b27c0d5c80ef7a3c0676c"
+        },
+        "fixed/german.jsonl": {
+          "bytes": 116297,
+          "sha256": "76ee3fb7b89c32c3c00801f69a888f490772eb2c768cf8eff5807a4fa984bc15"
+        },
+        "fixed/german.manifest.json": {
+          "bytes": 6499,
+          "sha256": "cc904af660fa901bfe62c482d5fb95d8db4fc55b05d811baccf1ce9d159f3b99"
+        }
+      },
+      "record_type": "task_result",
+      "returncode": 0,
+      "schema_version": "paper1-full-corpus-v1",
+      "started_utc": "2026-07-26T09:24:42.757520+00:00",
+      "suite": "fixed-suite",
+      "task_id": "fixed-german"
+    },
+    {
+      "command": [
+        "python",
+        "-u",
+        "run_fixed_suite.py",
+        "--block",
+        "radon-50k",
+        "--out",
+        "<run-dir>/fixed/radon_50k.jsonl",
+        "--events-out",
+        "<run-dir>/fixed/radon_50k.events.jsonl",
+        "--arrays-dir",
+        "<run-dir>/fixed/radon_50k.arrays",
+        "--run-id",
+        "<run-id>"
+      ],
+      "completed_utc": "2026-07-26T09:26:21.549701+00:00",
+      "elapsed_seconds": 48.73979116400005,
+      "environment": "current",
+      "environment_overrides": {
+        "JAX_ENABLE_X64": "1",
+        "JAX_PLATFORM_NAME": "cpu",
+        "MPLCONFIGDIR": "/tmp/paper1-matplotlib",
+        "PAPER1_RUNCAP": "80G",
+        "PYTHONNOUSERSITE": "1",
+        "PYTHONPATH": "<current-blackjax>:<tuningfork>",
+        "PYTHONUNBUFFERED": "1"
+      },
+      "log": {
+        "bytes": 1933,
+        "path": "logs/fixed-radon-50k.log",
+        "sha256": "7f8621c5b05ed15984129b7fe0930816b51bc0c0a2e515524f1c37a72de8e56a"
+      },
+      "missing_outputs": [],
+      "outputs": {
+        "fixed/radon_50k.events.jsonl": {
+          "bytes": 9548,
+          "sha256": "24260fa867294422f8bf9dd2e5958e4dd2d6ff40d19612aa6cb896cd11a6fc12"
+        },
+        "fixed/radon_50k.jsonl": {
+          "bytes": 53373,
+          "sha256": "9720d6d314c4bf6bbdee632814d0ff2fefebee85e015ddd3dff57617dec295d9"
+        },
+        "fixed/radon_50k.manifest.json": {
+          "bytes": 2820,
+          "sha256": "53e75e66e1c469dc6ee1df18432e8fb76e25718723f814953fd49990983220bb"
+        }
+      },
+      "record_type": "task_result",
+      "returncode": 0,
+      "schema_version": "paper1-full-corpus-v1",
+      "started_utc": "2026-07-26T09:25:32.809678+00:00",
+      "suite": "fixed-suite",
+      "task_id": "fixed-radon-50k"
+    },
+    {
+      "command": [
+        "python",
+        "-u",
+        "run_fixed_suite.py",
+        "--block",
+        "radon-400k",
+        "--out",
+        "<run-dir>/fixed/radon_400k.jsonl",
+        "--events-out",
+        "<run-dir>/fixed/radon_400k.events.jsonl",
+        "--arrays-dir",
+        "<run-dir>/fixed/radon_400k.arrays",
+        "--run-id",
+        "<run-id>"
+      ],
+      "completed_utc": "2026-07-26T09:28:18.537106+00:00",
+      "elapsed_seconds": 116.98629634900135,
+      "environment": "current",
+      "environment_overrides": {
+        "JAX_ENABLE_X64": "1",
+        "JAX_PLATFORM_NAME": "cpu",
+        "MPLCONFIGDIR": "/tmp/paper1-matplotlib",
+        "PAPER1_RUNCAP": "80G",
+        "PYTHONNOUSERSITE": "1",
+        "PYTHONPATH": "<current-blackjax>:<tuningfork>",
+        "PYTHONUNBUFFERED": "1"
+      },
+      "log": {
+        "bytes": 1945,
+        "path": "logs/fixed-radon-400k.log",
+        "sha256": "16e2ff73a055aea3642b67ae7f5b3ee04697a70ea00006e5d9e3ec3bcd2c1292"
+      },
+      "missing_outputs": [],
+      "outputs": {
+        "fixed/radon_400k.events.jsonl": {
+          "bytes": 18205,
+          "sha256": "75f9c639932976a5f41907ebdb892ee146f61530e2c5b7352fdf32d5bd9effe8"
+        },
+        "fixed/radon_400k.jsonl": {
+          "bytes": 105174,
+          "sha256": "a0b575bc799b2032ae5d8be588a1d14ea80bc992713eaaede9f2ba21563a2393"
+        },
+        "fixed/radon_400k.manifest.json": {
+          "bytes": 2832,
+          "sha256": "8edb4c7fab9d798d41f30dd1b51d546610ed47226a87c9628677fb135b0853dc"
+        }
+      },
+      "record_type": "task_result",
+      "returncode": 0,
+      "schema_version": "paper1-full-corpus-v1",
+      "started_utc": "2026-07-26T09:26:21.550555+00:00",
+      "suite": "fixed-suite",
+      "task_id": "fixed-radon-400k"
+    },
+    {
+      "command": [
+        "python",
+        "-u",
+        "run_fixed_suite.py",
+        "--block",
+        "refusals",
+        "--out",
+        "<run-dir>/fixed/refusals.jsonl",
+        "--events-out",
+        "<run-dir>/fixed/refusals.events.jsonl",
+        "--arrays-dir",
+        "<run-dir>/fixed/refusals.arrays",
+        "--run-id",
+        "<run-id>"
+      ],
+      "completed_utc": "2026-07-26T09:28:33.801981+00:00",
+      "elapsed_seconds": 15.262972355005331,
+      "environment": "current",
+      "environment_overrides": {
+        "JAX_ENABLE_X64": "1",
+        "JAX_PLATFORM_NAME": "cpu",
+        "MPLCONFIGDIR": "/tmp/paper1-matplotlib",
+        "PAPER1_RUNCAP": "80G",
+        "PYTHONNOUSERSITE": "1",
+        "PYTHONPATH": "<current-blackjax>:<tuningfork>",
+        "PYTHONUNBUFFERED": "1"
+      },
+      "log": {
+        "bytes": 4071,
+        "path": "logs/fixed-refusals.log",
+        "sha256": "071c1c6835f20471d4de88e6c917b495715752ad00dec70b2fd42e490f7b42d3"
+      },
+      "missing_outputs": [],
+      "outputs": {
+        "fixed/refusals.events.jsonl": {
+          "bytes": 50675,
+          "sha256": "ca1bf55fbc822a3295b5de33121ac63d2cca14aa7dbaeb855d0c14ff9f1616f8"
+        },
+        "fixed/refusals.jsonl": {
+          "bytes": 62032,
+          "sha256": "e07600f419b5a66023b7bb0e8642f312b01c5f394e93ed7d4d3362f45e59ce2d"
+        },
+        "fixed/refusals.manifest.json": {
+          "bytes": 6251,
+          "sha256": "b8beec94b0de166e474bac040b50834951297ba54f1f27d48d6997a764a61318"
+        }
+      },
+      "record_type": "task_result",
+      "returncode": 0,
+      "schema_version": "paper1-full-corpus-v1",
+      "started_utc": "2026-07-26T09:28:18.538730+00:00",
+      "suite": "fixed-suite",
+      "task_id": "fixed-refusals"
+    },
+    {
+      "command": [
+        "python",
+        "-u",
+        "run_fixed_suite.py",
+        "--block",
+        "controls",
+        "--out",
+        "<run-dir>/fixed/controls.jsonl",
+        "--events-out",
+        "<run-dir>/fixed/controls.events.jsonl",
+        "--arrays-dir",
+        "<run-dir>/fixed/controls.arrays",
+        "--run-id",
+        "<run-id>"
+      ],
+      "completed_utc": "2026-07-26T09:29:25.776464+00:00",
+      "elapsed_seconds": 51.9727303480031,
+      "environment": "current",
+      "environment_overrides": {
+        "JAX_ENABLE_X64": "1",
+        "JAX_PLATFORM_NAME": "cpu",
+        "MPLCONFIGDIR": "/tmp/paper1-matplotlib",
+        "PAPER1_RUNCAP": "80G",
+        "PYTHONNOUSERSITE": "1",
+        "PYTHONPATH": "<current-blackjax>:<tuningfork>",
+        "PYTHONUNBUFFERED": "1"
+      },
+      "log": {
+        "bytes": 3994,
+        "path": "logs/fixed-controls.log",
+        "sha256": "461bcbc80e0f3a3d368c134d5b03c1a54bb500bc85fcdaecd6d356ac5efbaee5"
+      },
+      "missing_outputs": [],
+      "outputs": {
+        "fixed/controls.events.jsonl": {
+          "bytes": 34164,
+          "sha256": "d7130902f13f4cbd6ca972204e3d761659e09eb519ce32354455d60fd8c6e446"
+        },
+        "fixed/controls.jsonl": {
+          "bytes": 98334,
+          "sha256": "b451df299b67e9143cd47b42e3a5f761db6b23bac918ba400a107045e43ddbd0"
+        },
+        "fixed/controls.manifest.json": {
+          "bytes": 6273,
+          "sha256": "4a54853dcf04c7ff4ce54cbab67565ab3bd46b05f04df95c7ed4edb5a23f6bd5"
+        }
+      },
+      "record_type": "task_result",
+      "returncode": 0,
+      "schema_version": "paper1-full-corpus-v1",
+      "started_utc": "2026-07-26T09:28:33.803385+00:00",
+      "suite": "fixed-suite",
+      "task_id": "fixed-controls"
+    },
+    {
+      "command": [
+        "python",
+        "-u",
+        "run_fixed_suite.py",
+        "--block",
+        "clones",
+        "--out",
+        "<run-dir>/fixed/clones.jsonl",
+        "--events-out",
+        "<run-dir>/fixed/clones.events.jsonl",
+        "--arrays-dir",
+        "<run-dir>/fixed/clones.arrays",
+        "--run-id",
+        "<run-id>"
+      ],
+      "completed_utc": "2026-07-26T09:29:40.678072+00:00",
+      "elapsed_seconds": 14.900070563016925,
+      "environment": "current",
+      "environment_overrides": {
+        "JAX_ENABLE_X64": "1",
+        "JAX_PLATFORM_NAME": "cpu",
+        "MPLCONFIGDIR": "/tmp/paper1-matplotlib",
+        "PAPER1_RUNCAP": "80G",
+        "PYTHONNOUSERSITE": "1",
+        "PYTHONPATH": "<current-blackjax>:<tuningfork>",
+        "PYTHONUNBUFFERED": "1"
+      },
+      "log": {
+        "bytes": 2619,
+        "path": "logs/fixed-clones.log",
+        "sha256": "194be1826f0675c96f6656c12d14f18df479adb373adebd09ab8297525ba26ff"
+      },
+      "missing_outputs": [],
+      "outputs": {
+        "fixed/clones.events.jsonl": {
+          "bytes": 17354,
+          "sha256": "f919dcd10c3fa68fe2ef2eddd3f7f82c0740600d59372f50effb3473de047492"
+        },
+        "fixed/clones.jsonl": {
+          "bytes": 43036,
+          "sha256": "8a24263eca92fb47d9ee02a6d569e4ac8c2286aec5439c703110da8df8c93130"
+        },
+        "fixed/clones.manifest.json": {
+          "bytes": 3963,
+          "sha256": "208c47d80a64fc774f63fa654b52e4d412645368b4d4cad0e7940e75a477a7fc"
+        }
+      },
+      "record_type": "task_result",
+      "returncode": 0,
+      "schema_version": "paper1-full-corpus-v1",
+      "started_utc": "2026-07-26T09:29:25.777682+00:00",
+      "suite": "fixed-suite",
+      "task_id": "fixed-clones"
+    },
+    {
+      "command": [
+        "python",
+        "-u",
+        "run_fixed_suite.py",
+        "--block",
+        "manual-illcond",
+        "--out",
+        "<run-dir>/fixed/manual_illcond.jsonl",
+        "--events-out",
+        "<run-dir>/fixed/manual_illcond.events.jsonl",
+        "--arrays-dir",
+        "<run-dir>/fixed/manual_illcond.arrays",
+        "--run-id",
+        "<run-id>"
+      ],
+      "completed_utc": "2026-07-26T09:30:44.298182+00:00",
+      "elapsed_seconds": 63.61901922899415,
+      "environment": "current",
+      "environment_overrides": {
+        "JAX_ENABLE_X64": "1",
+        "JAX_PLATFORM_NAME": "cpu",
+        "MPLCONFIGDIR": "/tmp/paper1-matplotlib",
+        "PAPER1_RUNCAP": "80G",
+        "PYTHONNOUSERSITE": "1",
+        "PYTHONPATH": "<current-blackjax>:<tuningfork>",
+        "PYTHONUNBUFFERED": "1"
+      },
+      "log": {
+        "bytes": 10476,
+        "path": "logs/fixed-manual-illcond.log",
+        "sha256": "e99f3c6d2b9d5dd7b6de4c6924af1213b22a3de4d0f44b03c87d262691276042"
+      },
+      "missing_outputs": [],
+      "outputs": {
+        "fixed/manual_illcond.events.jsonl": {
+          "bytes": 1178,
+          "sha256": "31cda51499049f9a9a231f15dd886f1526bfce6086145fce9926f615d66ca7c6"
+        },
+        "fixed/manual_illcond.jsonl": {
+          "bytes": 64526,
+          "sha256": "92e5e9709f2f6b1f76b3d2f3dceee50861caf59d92d43c333bd226ef62012f3b"
+        },
+        "fixed/manual_illcond.manifest.json": {
+          "bytes": 15994,
+          "sha256": "06d1fa1ffff262303b17af2c9ec71a011c0a1d315dbb834508a799acebb83ae4"
+        }
+      },
+      "record_type": "task_result",
+      "returncode": 0,
+      "schema_version": "paper1-full-corpus-v1",
+      "started_utc": "2026-07-26T09:29:40.678942+00:00",
+      "suite": "fixed-suite",
+      "task_id": "fixed-manual-illcond"
+    },
+    {
+      "command": [
+        "python",
+        "-u",
+        "run_fixed_suite.py",
+        "--block",
+        "manual-german",
+        "--out",
+        "<run-dir>/fixed/manual_german.jsonl",
+        "--events-out",
+        "<run-dir>/fixed/manual_german.events.jsonl",
+        "--arrays-dir",
+        "<run-dir>/fixed/manual_german.arrays",
+        "--run-id",
+        "<run-id>"
+      ],
+      "completed_utc": "2026-07-26T09:31:10.851549+00:00",
+      "elapsed_seconds": 26.552381671994226,
+      "environment": "current",
+      "environment_overrides": {
+        "JAX_ENABLE_X64": "1",
+        "JAX_PLATFORM_NAME": "cpu",
+        "MPLCONFIGDIR": "/tmp/paper1-matplotlib",
+        "PAPER1_RUNCAP": "80G",
+        "PYTHONNOUSERSITE": "1",
+        "PYTHONPATH": "<current-blackjax>:<tuningfork>",
+        "PYTHONUNBUFFERED": "1"
+      },
+      "log": {
+        "bytes": 7667,
+        "path": "logs/fixed-manual-german.log",
+        "sha256": "75e279683bb2bc2c857c6ae199e36f7ec16cda7dbd0574e1e958bda867e0f662"
+      },
+      "missing_outputs": [],
+      "outputs": {
+        "fixed/manual_german.events.jsonl": {
+          "bytes": 1173,
+          "sha256": "e8f592bf591ea77527e08b106890f31b1dc95c28bb09bfaf5dcc1c0e92639f33"
+        },
+        "fixed/manual_german.jsonl": {
+          "bytes": 36202,
+          "sha256": "cdf5ded8ec43c64bd029bf1490114a5636477eef765a58a6889225c788b42456"
+        },
+        "fixed/manual_german.manifest.json": {
+          "bytes": 11586,
+          "sha256": "54d913f8361aff44730a210b07e040126c4dcfde9dfda0c3a8356d188efab362"
+        }
+      },
+      "record_type": "task_result",
+      "returncode": 0,
+      "schema_version": "paper1-full-corpus-v1",
+      "started_utc": "2026-07-26T09:30:44.298972+00:00",
+      "suite": "fixed-suite",
+      "task_id": "fixed-manual-german"
+    },
+    {
+      "command": [
+        "python",
+        "-u",
+        "run_fixed_suite.py",
+        "--block",
+        "manual-population-illcond",
+        "--out",
+        "<run-dir>/fixed/manual_population_illcond.jsonl",
+        "--events-out",
+        "<run-dir>/fixed/manual_population_illcond.events.jsonl",
+        "--arrays-dir",
+        "<run-dir>/fixed/manual_population_illcond.arrays",
+        "--run-id",
+        "<run-id>"
+      ],
+      "completed_utc": "2026-07-26T09:37:15.554586+00:00",
+      "elapsed_seconds": 364.7016748219903,
+      "environment": "current",
+      "environment_overrides": {
+        "JAX_ENABLE_X64": "1",
+        "JAX_PLATFORM_NAME": "cpu",
+        "MPLCONFIGDIR": "/tmp/paper1-matplotlib",
+        "PAPER1_RUNCAP": "80G",
+        "PYTHONNOUSERSITE": "1",
+        "PYTHONPATH": "<current-blackjax>:<tuningfork>",
+        "PYTHONUNBUFFERED": "1"
+      },
+      "log": {
+        "bytes": 10870,
+        "path": "logs/fixed-manual-population-illcond.log",
+        "sha256": "9bbef1d51a5319f35fc243aa001b8e53db215c6136261be66e2061f9c7556529"
+      },
+      "missing_outputs": [],
+      "outputs": {
+        "fixed/manual_population_illcond.events.jsonl": {
+          "bytes": 1233,
+          "sha256": "1e498d55fd586f3cca31384a5904cabfdb96e407b7859b8bb88fe212671c51b1"
+        },
+        "fixed/manual_population_illcond.jsonl": {
+          "bytes": 361823,
+          "sha256": "62fd74b0de30a091255444d94953bbf95bab0791432029404f98c97a742c5e43"
+        },
+        "fixed/manual_population_illcond.manifest.json": {
+          "bytes": 17523,
+          "sha256": "a9e61c5467300d0a731a952e42e4e74c3b015db7419788ec36168abf7efc2d50"
+        }
+      },
+      "record_type": "task_result",
+      "returncode": 0,
+      "schema_version": "paper1-full-corpus-v1",
+      "started_utc": "2026-07-26T09:31:10.852473+00:00",
+      "suite": "fixed-suite",
+      "task_id": "fixed-manual-population-illcond"
+    },
+    {
+      "command": [
+        "python",
+        "-u",
+        "run_fixed_suite.py",
+        "--block",
+        "manual-population-german",
+        "--out",
+        "<run-dir>/fixed/manual_population_german.jsonl",
+        "--events-out",
+        "<run-dir>/fixed/manual_population_german.events.jsonl",
+        "--arrays-dir",
+        "<run-dir>/fixed/manual_population_german.arrays",
+        "--run-id",
+        "<run-id>"
+      ],
+      "completed_utc": "2026-07-26T09:39:47.516331+00:00",
+      "elapsed_seconds": 151.96028437500354,
+      "environment": "current",
+      "environment_overrides": {
+        "JAX_ENABLE_X64": "1",
+        "JAX_PLATFORM_NAME": "cpu",
+        "MPLCONFIGDIR": "/tmp/paper1-matplotlib",
+        "PAPER1_RUNCAP": "80G",
+        "PYTHONNOUSERSITE": "1",
+        "PYTHONPATH": "<current-blackjax>:<tuningfork>",
+        "PYTHONUNBUFFERED": "1"
+      },
+      "log": {
+        "bytes": 7965,
+        "path": "logs/fixed-manual-population-german.log",
+        "sha256": "9ac8f8d15efd4b38779d17caee7620e445db05c9e5362b7b4abbe6535cba56b0"
+      },
+      "missing_outputs": [],
+      "outputs": {
+        "fixed/manual_population_german.events.jsonl": {
+          "bytes": 1228,
+          "sha256": "5a787e5eec44e7c60f53012e743f33e419392ea809f1fba9129862353f45fe54"
+        },
+        "fixed/manual_population_german.jsonl": {
+          "bytes": 161941,
+          "sha256": "0f42e1d0c9ce2902efedc74f1f9d26a9b8f01a981b8dc0b7f3e3983ce97f61cf"
+        },
+        "fixed/manual_population_german.manifest.json": {
+          "bytes": 12691,
+          "sha256": "3a225d0379e6a7e611e210914e340e5d538e7215a39033fcc8f39376876f2255"
+        }
+      },
+      "record_type": "task_result",
+      "returncode": 0,
+      "schema_version": "paper1-full-corpus-v1",
+      "started_utc": "2026-07-26T09:37:15.555773+00:00",
+      "suite": "fixed-suite",
+      "task_id": "fixed-manual-population-german"
+    },
+    {
+      "command": [
+        "python",
+        "-u",
+        "run_kernel_family.py",
+        "--out",
+        "<run-dir>/kernel/kernel_family.jsonl",
+        "--events-out",
+        "<run-dir>/kernel/kernel_family.events.jsonl",
+        "--run-id",
+        "<run-id>"
+      ],
+      "completed_utc": "2026-07-26T09:41:06.665713+00:00",
+      "elapsed_seconds": 79.14757429098245,
+      "environment": "current",
+      "environment_overrides": {
+        "JAX_ENABLE_X64": "1",
+        "JAX_PLATFORM_NAME": "cpu",
+        "MPLCONFIGDIR": "/tmp/paper1-matplotlib",
+        "PAPER1_RUNCAP": "80G",
+        "PYTHONNOUSERSITE": "1",
+        "PYTHONPATH": "<current-blackjax>:<tuningfork>",
+        "PYTHONUNBUFFERED": "1"
+      },
+      "log": {
+        "bytes": 1461,
+        "path": "logs/kernel-family.log",
+        "sha256": "a64498ace68a7c4edd651a35e5ec2268bd01a4fce600bbd35a5a071901940fc2"
+      },
+      "missing_outputs": [],
+      "outputs": {
+        "kernel/kernel_family.events.jsonl": {
+          "bytes": 67546,
+          "sha256": "a565b44b17a14234041ce50c43ed9b26f33c8c9f69362bf9744d272a53326156"
+        },
+        "kernel/kernel_family.jsonl": {
+          "bytes": 191689,
+          "sha256": "720ffbae8d196ec8f1de0118319c5c29d24617f75532c8a5defc517932e7573f"
+        },
+        "kernel/kernel_family.manifest.json": {
+          "bytes": 454,
+          "sha256": "fe943257448704575e2aeecedfa02e280669887f05edd24870893806c47a7f96"
+        }
+      },
+      "record_type": "task_result",
+      "returncode": 0,
+      "schema_version": "paper1-full-corpus-v1",
+      "started_utc": "2026-07-26T09:39:47.517799+00:00",
+      "suite": "kernel-family",
+      "task_id": "kernel-family"
+    },
+    {
+      "command": [
+        "python",
+        "-u",
+        "run_schedule_comparison.py",
+        "--out",
+        "<run-dir>/schedule/schedule_configuration.jsonl",
+        "--events-out",
+        "<run-dir>/schedule/schedule_configuration.events.jsonl",
+        "--run-id",
+        "<run-id>"
+      ],
+      "completed_utc": "2026-07-26T09:51:17.989450+00:00",
+      "elapsed_seconds": 611.3224356000137,
+      "environment": "current",
+      "environment_overrides": {
+        "JAX_ENABLE_X64": "1",
+        "JAX_PLATFORM_NAME": "cpu",
+        "MPLCONFIGDIR": "/tmp/paper1-matplotlib",
+        "PAPER1_RUNCAP": "80G",
+        "PYTHONNOUSERSITE": "1",
+        "PYTHONPATH": "<current-blackjax>:<tuningfork>",
+        "PYTHONUNBUFFERED": "1"
+      },
+      "log": {
+        "bytes": 2295,
+        "path": "logs/schedule-configuration.log",
+        "sha256": "5753c8a33d3300d79c76ff7157b92d8a236d59cf287b8585a1a567f964f52993"
+      },
+      "missing_outputs": [],
+      "outputs": {
+        "schedule/schedule_configuration.events.jsonl": {
+          "bytes": 219261,
+          "sha256": "77fb756b1d57f2005afc9c986c81c7b644705d8048232acaf93ecc4e2e9f6f02"
+        },
+        "schedule/schedule_configuration.jsonl": {
+          "bytes": 16016,
+          "sha256": "c0afcd5415210895574de134d96646091cd70dfa980734cc665c1a27a22abc9b"
+        },
+        "schedule/schedule_configuration.manifest.json": {
+          "bytes": 466,
+          "sha256": "72be551c895059e8ef873b38f94554d223cabf961e457ae3e307d3e1bbef7dfb"
+        }
+      },
+      "record_type": "task_result",
+      "returncode": 0,
+      "schema_version": "paper1-full-corpus-v1",
+      "started_utc": "2026-07-26T09:41:06.666570+00:00",
+      "suite": "schedule-configuration",
+      "task_id": "schedule-configuration"
+    },
+    {
+      "command": [
+        "python",
+        "-u",
+        "run_restart_ablation.py",
+        "--out",
+        "<run-dir>/restart/restart_ablation.jsonl",
+        "--run-id",
+        "<run-id>"
+      ],
+      "completed_utc": "2026-07-26T09:52:00.815735+00:00",
+      "elapsed_seconds": 42.82493519701529,
+      "environment": "current",
+      "environment_overrides": {
+        "JAX_ENABLE_X64": "1",
+        "JAX_PLATFORM_NAME": "cpu",
+        "MPLCONFIGDIR": "/tmp/paper1-matplotlib",
+        "PAPER1_RUNCAP": "80G",
+        "PYTHONNOUSERSITE": "1",
+        "PYTHONPATH": "<current-blackjax>:<tuningfork>",
+        "PYTHONUNBUFFERED": "1"
+      },
+      "log": {
+        "bytes": 1142,
+        "path": "logs/restart-ablation.log",
+        "sha256": "6dd0734a78e221bf20c13f5029658cba108092c129bfb4dfcbb258314adcb86a"
+      },
+      "missing_outputs": [],
+      "outputs": {
+        "restart/restart_ablation.jsonl": {
+          "bytes": 11415,
+          "sha256": "703c6ca0156384f04ce54c44a028652f5d31a9752dd69a8cb76297e76d246b91"
+        },
+        "restart/restart_ablation.manifest.json": {
+          "bytes": 288,
+          "sha256": "3da42493b2454db5d8fbc61bfe20e48607298e47d709f0cda02dd9ab5ef486ad"
+        }
+      },
+      "record_type": "task_result",
+      "returncode": 0,
+      "schema_version": "paper1-full-corpus-v1",
+      "started_utc": "2026-07-26T09:51:17.990632+00:00",
+      "suite": "restart-ablation",
+      "task_id": "restart-ablation"
+    },
+    {
+      "command": [
+        "python",
+        "-u",
+        "run_shared_step_size.py",
+        "--revision",
+        "current",
+        "--out",
+        "<run-dir>/shared_step/current.jsonl",
+        "--run-id",
+        "<run-id>"
+      ],
+      "completed_utc": "2026-07-26T09:52:40.874464+00:00",
+      "elapsed_seconds": 40.05811318900669,
+      "environment": "current",
+      "environment_overrides": {
+        "JAX_ENABLE_X64": "1",
+        "JAX_PLATFORM_NAME": "cpu",
+        "MPLCONFIGDIR": "/tmp/paper1-matplotlib",
+        "PAPER1_RUNCAP": "80G",
+        "PYTHONNOUSERSITE": "1",
+        "PYTHONPATH": "<current-blackjax>:<tuningfork>",
+        "PYTHONUNBUFFERED": "1"
+      },
+      "log": {
+        "bytes": 1230,
+        "path": "logs/shared-step-current.log",
+        "sha256": "c03631284491984428f0328aac48c6815f4f0fe08de94714b5f8b03dc6c69a73"
+      },
+      "missing_outputs": [],
+      "outputs": {
+        "shared_step/current.jsonl": {
+          "bytes": 13811,
+          "sha256": "a984d6ab2383123370a120f5adb47863fe7c50814dcc45e7580f7ff3d60e5fbb"
+        },
+        "shared_step/current.manifest.json": {
+          "bytes": 308,
+          "sha256": "3eb6882a55d8dd6153040afcde659edee1fcfe94146e54a8b08ff3ef75dbed7c"
+        }
+      },
+      "record_type": "task_result",
+      "returncode": 0,
+      "schema_version": "paper1-full-corpus-v1",
+      "started_utc": "2026-07-26T09:52:00.816189+00:00",
+      "suite": "shared-step-size",
+      "task_id": "shared-step-current"
+    },
+    {
+      "command": [
+        "python",
+        "-u",
+        "run_shared_step_size.py",
+        "--revision",
+        "historical",
+        "--out",
+        "<run-dir>/shared_step/historical.jsonl",
+        "--run-id",
+        "<run-id>"
+      ],
+      "completed_utc": "2026-07-26T09:54:43.073743+00:00",
+      "elapsed_seconds": 122.19722727601766,
+      "environment": "historical",
+      "environment_overrides": {
+        "JAX_ENABLE_X64": "1",
+        "JAX_PLATFORM_NAME": "cpu",
+        "MPLCONFIGDIR": "/tmp/paper1-matplotlib",
+        "PAPER1_RUNCAP": "80G",
+        "PYTHONNOUSERSITE": "1",
+        "PYTHONPATH": "<historical-blackjax>:<tuningfork>",
+        "PYTHONUNBUFFERED": "1"
+      },
+      "log": {
+        "bytes": 1302,
+        "path": "logs/shared-step-historical.log",
+        "sha256": "b4c88b5ca858127190fbb14bc4db5c70b1c87994f34a9102e89e5c14b96a11cd"
+      },
+      "missing_outputs": [],
+      "outputs": {
+        "shared_step/historical.jsonl": {
+          "bytes": 13883,
+          "sha256": "1bc3dea4e3a3ad617860c035eba03679cfca8e655aa261de853f58296554a7cf"
+        },
+        "shared_step/historical.manifest.json": {
+          "bytes": 314,
+          "sha256": "c27d2ac438546ddcd9d58fc1c759ae2adfa503e54ec35fb29ec02682b4446b6d"
+        }
+      },
+      "record_type": "task_result",
+      "returncode": 0,
+      "schema_version": "paper1-full-corpus-v1",
+      "started_utc": "2026-07-26T09:52:40.876268+00:00",
+      "suite": "shared-step-size",
+      "task_id": "shared-step-historical"
+    },
+    {
+      "command": [
+        "python",
+        "-u",
+        "run_gmm_suite.py",
+        "--output-dir",
+        "<run-dir>/gmm",
+        "--blackjax-root",
+        "<current-blackjax>"
+      ],
+      "completed_utc": "2026-07-26T10:05:16.002780+00:00",
+      "elapsed_seconds": 632.9278969799925,
+      "environment": "current",
+      "environment_overrides": {
+        "JAX_ENABLE_X64": "1",
+        "JAX_PLATFORM_NAME": "cpu",
+        "MPLCONFIGDIR": "/tmp/paper1-matplotlib",
+        "PAPER1_RUNCAP": "80G",
+        "PYTHONNOUSERSITE": "1",
+        "PYTHONPATH": "<current-blackjax>:<tuningfork>",
+        "PYTHONUNBUFFERED": "1"
+      },
+      "log": {
+        "bytes": 13320,
+        "path": "logs/controlled-gmm.log",
+        "sha256": "641c00b85ebba3dcfe6a13d1fe2f8124b6da0810f486421f432ec670ff70970e"
+      },
+      "missing_outputs": [],
+      "outputs": {
+        "gmm/provenance.json": {
+          "bytes": 2912,
+          "sha256": "ef2f58c191efd1d0d3adb6dd150e52c60b581e5dc2f52397afc10157af4a071d"
+        },
+        "gmm/run_manifest.json": {
+          "bytes": 6149,
+          "sha256": "63a6d92c57fa8590d9d033a7ae360be8b2f7a325148ab76c477535a5a25a4ed4"
+        }
+      },
+      "record_type": "task_result",
+      "returncode": 0,
+      "schema_version": "paper1-full-corpus-v1",
+      "started_utc": "2026-07-26T09:54:43.074713+00:00",
+      "suite": "controlled-gmm",
+      "task_id": "controlled-gmm"
+    },
+    {
+      "command": [
+        "python",
+        "-u",
+        "make_figure_bbp.py",
+        "--out",
+        "<run-dir>/figures/figure_bbp.pdf"
+      ],
+      "completed_utc": "2026-07-26T10:05:19.499358+00:00",
+      "elapsed_seconds": 3.495179907011334,
+      "environment": "current",
+      "environment_overrides": {
+        "JAX_ENABLE_X64": "1",
+        "JAX_PLATFORM_NAME": "cpu",
+        "MPLCONFIGDIR": "/tmp/paper1-matplotlib",
+        "PAPER1_RUNCAP": "80G",
+        "PYTHONNOUSERSITE": "1",
+        "PYTHONPATH": "<current-blackjax>:<tuningfork>",
+        "PYTHONUNBUFFERED": "1"
+      },
+      "log": {
+        "bytes": 39,
+        "path": "logs/bbp-calibration.log",
+        "sha256": "81c723e0e23bb353c4226516ac0a0211cc24dd27c5d61339c7a6cf8400cc1b2b"
+      },
+      "missing_outputs": [],
+      "outputs": {
+        "figures/figure_bbp.pdf": {
+          "bytes": 46454,
+          "sha256": "b4ebb5008b4ce966ba378a7fdd200477bafb6afabd49bcefaefa8c84ef6f3080"
+        }
+      },
+      "record_type": "task_result",
+      "returncode": 0,
+      "schema_version": "paper1-full-corpus-v1",
+      "started_utc": "2026-07-26T10:05:16.004002+00:00",
+      "suite": "bbp-calibration",
+      "task_id": "bbp-calibration"
+    },
+    {
+      "command": [
+        "python",
+        "-u",
+        "plot_schedule_evidence.py",
+        "--input",
+        "<run-dir>/gmm/gmm_k2_primary_60k.jsonl",
+        "--out",
+        "<run-dir>/figures/schedule_evidence.pdf",
+        "--arm-id",
+        "gmm_k2_primary_60k",
+        "--sr",
+        "5.0",
+        "--seed",
+        "42"
+      ],
+      "completed_utc": "2026-07-26T10:05:19.841594+00:00",
+      "elapsed_seconds": 0.34125098001095466,
+      "environment": "current",
+      "environment_overrides": {
+        "JAX_ENABLE_X64": "1",
+        "JAX_PLATFORM_NAME": "cpu",
+        "MPLCONFIGDIR": "/tmp/paper1-matplotlib",
+        "PAPER1_RUNCAP": "80G",
+        "PYTHONNOUSERSITE": "1",
+        "PYTHONPATH": "<current-blackjax>:<tuningfork>",
+        "PYTHONUNBUFFERED": "1"
+      },
+      "log": {
+        "bytes": 46,
+        "path": "logs/schedule-evidence-pdf.log",
+        "sha256": "83dcc9d833b67e455e6946eaf81b6706a0e6d5cf4c60d6eba954aedc54a699cd"
+      },
+      "missing_outputs": [],
+      "outputs": {
+        "figures/schedule_evidence.pdf": {
+          "bytes": 20277,
+          "sha256": "79ba270d69cd9f7ba78346c8a230f027697a12312fdc9416c61ede974d45b033"
+        }
+      },
+      "record_type": "task_result",
+      "returncode": 0,
+      "schema_version": "paper1-full-corpus-v1",
+      "started_utc": "2026-07-26T10:05:19.500203+00:00",
+      "suite": "schedule-evidence",
+      "task_id": "schedule-evidence-pdf"
+    },
+    {
+      "command": [
+        "python",
+        "-u",
+        "plot_schedule_evidence.py",
+        "--input",
+        "<run-dir>/gmm/gmm_k2_primary_60k.jsonl",
+        "--out",
+        "<run-dir>/figures/schedule_evidence.png",
+        "--arm-id",
+        "gmm_k2_primary_60k",
+        "--sr",
+        "5.0",
+        "--seed",
+        "42"
+      ],
+      "completed_utc": "2026-07-26T10:05:20.128929+00:00",
+      "elapsed_seconds": 0.2866924380068667,
+      "environment": "current",
+      "environment_overrides": {
+        "JAX_ENABLE_X64": "1",
+        "JAX_PLATFORM_NAME": "cpu",
+        "MPLCONFIGDIR": "/tmp/paper1-matplotlib",
+        "PAPER1_RUNCAP": "80G",
+        "PYTHONNOUSERSITE": "1",
+        "PYTHONPATH": "<current-blackjax>:<tuningfork>",
+        "PYTHONUNBUFFERED": "1"
+      },
+      "log": {
+        "bytes": 46,
+        "path": "logs/schedule-evidence-png.log",
+        "sha256": "096b783dc903ffc953006919c2aeb45f166a2dd361c8e5a82a82e795476f072c"
+      },
+      "missing_outputs": [],
+      "outputs": {
+        "figures/schedule_evidence.png": {
+          "bytes": 50720,
+          "sha256": "bc42a92cde94aef8d328f9aca3ba46db708f8eaa26b740a22d86bb0b38abbe0e"
+        }
+      },
+      "record_type": "task_result",
+      "returncode": 0,
+      "schema_version": "paper1-full-corpus-v1",
+      "started_utc": "2026-07-26T10:05:19.842077+00:00",
+      "suite": "schedule-evidence",
+      "task_id": "schedule-evidence-png"
+    }
+  ]
+}

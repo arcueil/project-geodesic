@@ -1,0 +1,14 @@
+An NVIDIA GPU may be present on this machine, but a CUDA-enabled jaxlib is not installed. Falling back to cpu.
+ill_cond_50:seed=0:revision=current wg=45525 amp10=1.74 epg=0.0929928
+ill_cond_50:seed=1:revision=current wg=44892 amp10=1.18 epg=0.101013
+ill_cond_50:seed=2:revision=current wg=45324 amp10=1.67 epg=0.0882324
+ill_cond_50:seed=3:revision=current wg=44982 amp10=1.65 epg=0.0964801
+ill_cond_50:seed=4:revision=current wg=45370 amp10=1.80 epg=0.0857859
+ill_cond_50:seed=5:revision=current wg=45142 amp10=1.21 epg=0.094122
+ill_cond_50:seed=6:revision=current wg=44567 amp10=1.77 epg=0.0768068
+german_credit:seed=0:revision=current wg=21248 amp10=1.31 epg=0.22632
+german_credit:seed=1:revision=current wg=21087 amp10=1.16 epg=0.236991
+german_credit:seed=2:revision=current wg=21690 amp10=1.25 epg=0.201205
+german_credit:seed=3:revision=current wg=21190 amp10=1.27 epg=0.206738
+german_credit:seed=4:revision=current wg=21386 amp10=1.44 epg=0.20848
+{"error_cells": 0, "expected_cells": 12, "results": {"bytes": 13811, "path": "current.jsonl", "sha256": "a984d6ab2383123370a120f5adb47863fe7c50814dcc45e7580f7ff3d60e5fbb"}, "revision_arm": "current", "run_id": "exp497-full-29d246-v1", "schema_version": "paper1-experiments-v1"}

@@ -1,0 +1,39 @@
+#!/usr/bin/env bash
+#
+# Run one command in a transient systemd user scope with a hard memory limit.
+# The PAPER1_RUNCAP export is consumed by run_full_corpus.py and records the
+# same cap that this wrapper asks systemd to enforce.
+
+set -euo pipefail
+
+usage() {
+    echo "usage: $0 MEMORY_LIMIT COMMAND [ARG ...]" >&2
+    echo "example: $0 80G python -u run_full_corpus.py ..." >&2
+}
+
+if [[ $# -lt 2 ]]; then
+    usage
+    exit 2
+fi
+
+memory_limit=$1
+shift
+if [[ ! "$memory_limit" =~ ^[1-9][0-9]*([.][0-9]+)?[KMGTPE]$ ]]; then
+    echo "invalid systemd memory limit: $memory_limit" >&2
+    usage
+    exit 2
+fi
+if ! command -v systemd-run >/dev/null 2>&1; then
+    echo "systemd-run is required to enforce the memory cap" >&2
+    exit 127
+fi
+
+export PAPER1_RUNCAP="$memory_limit"
+exec systemd-run \
+    --user \
+    --scope \
+    --quiet \
+    --same-dir \
+    --property="MemoryMax=$memory_limit" \
+    --property="MemorySwapMax=$memory_limit" \
+    -- "$@"

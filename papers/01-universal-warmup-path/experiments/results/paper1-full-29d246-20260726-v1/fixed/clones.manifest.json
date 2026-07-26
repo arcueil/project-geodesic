@@ -1,0 +1,185 @@
+{
+  "array_artifacts": [
+    {
+      "bytes": 1551584,
+      "cell_id": "ill_cond_50:seed=0:B=50000",
+      "members": {
+        "draws": {
+          "dtype": "float64",
+          "shape": [
+            4000,
+            50
+          ]
+        },
+        "initial_positions": {
+          "dtype": "float64",
+          "shape": [
+            8,
+            50
+          ]
+        },
+        "sampling_divergences": {
+          "dtype": "bool",
+          "shape": [
+            4000
+          ]
+        },
+        "sampling_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            4000
+          ]
+        },
+        "warmup_divergences": {
+          "dtype": "bool",
+          "shape": [
+            312,
+            8
+          ]
+        },
+        "warmup_end_positions": {
+          "dtype": "float64",
+          "shape": [
+            8,
+            50
+          ]
+        },
+        "warmup_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            312,
+            8
+          ]
+        }
+      },
+      "path": "cell-0000.npz",
+      "sha256": "ab076e9ddc3a4b57a5c695c8d15ae603ea178d7de0b10438eb0e4f3b5f1d6213"
+    },
+    {
+      "bytes": 1551421,
+      "cell_id": "ill_cond_50:seed=1:B=50000",
+      "members": {
+        "draws": {
+          "dtype": "float64",
+          "shape": [
+            4000,
+            50
+          ]
+        },
+        "initial_positions": {
+          "dtype": "float64",
+          "shape": [
+            8,
+            50
+          ]
+        },
+        "sampling_divergences": {
+          "dtype": "bool",
+          "shape": [
+            4000
+          ]
+        },
+        "sampling_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            4000
+          ]
+        },
+        "warmup_divergences": {
+          "dtype": "bool",
+          "shape": [
+            312,
+            8
+          ]
+        },
+        "warmup_end_positions": {
+          "dtype": "float64",
+          "shape": [
+            8,
+            50
+          ]
+        },
+        "warmup_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            312,
+            8
+          ]
+        }
+      },
+      "path": "cell-0001.npz",
+      "sha256": "e667066e09a7295864475f061d1b04b11413907913eb80800f4ed7a72301dc75"
+    },
+    {
+      "bytes": 1551594,
+      "cell_id": "ill_cond_50:seed=2:B=50000",
+      "members": {
+        "draws": {
+          "dtype": "float64",
+          "shape": [
+            4000,
+            50
+          ]
+        },
+        "initial_positions": {
+          "dtype": "float64",
+          "shape": [
+            8,
+            50
+          ]
+        },
+        "sampling_divergences": {
+          "dtype": "bool",
+          "shape": [
+            4000
+          ]
+        },
+        "sampling_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            4000
+          ]
+        },
+        "warmup_divergences": {
+          "dtype": "bool",
+          "shape": [
+            312,
+            8
+          ]
+        },
+        "warmup_end_positions": {
+          "dtype": "float64",
+          "shape": [
+            8,
+            50
+          ]
+        },
+        "warmup_integration_steps": {
+          "dtype": "int64",
+          "shape": [
+            312,
+            8
+          ]
+        }
+      },
+      "path": "cell-0002.npz",
+      "sha256": "0b6f1e5359ce3863d7753ac53230317a544c494fd0317a16dc5b2209be97244d"
+    }
+  ],
+  "arrays_dir": "clones.arrays",
+  "block": "clones",
+  "error_cells": 0,
+  "events": {
+    "bytes": 17354,
+    "path": "clones.events.jsonl",
+    "sha256": "f919dcd10c3fa68fe2ef2eddd3f7f82c0740600d59372f50effb3473de047492"
+  },
+  "expected_cells": 3,
+  "results": {
+    "bytes": 43036,
+    "path": "clones.jsonl",
+    "sha256": "8a24263eca92fb47d9ee02a6d569e4ac8c2286aec5439c703110da8df8c93130"
+  },
+  "run_id": "exp497-full-29d246-v1",
+  "schema_version": "paper1-experiments-v1"
+}

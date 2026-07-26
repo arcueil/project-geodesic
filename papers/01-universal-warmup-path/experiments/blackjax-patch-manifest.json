@@ -1,0 +1,76 @@
+{
+  "schema_version": 2,
+  "repository": "https://github.com/blackjax-devs/blackjax.git",
+  "base": {
+    "commit": "f8f7e3bfd04392ead392b7f5fe1938f0159f048d",
+    "public_ref_at_generation": "origin/main",
+    "selection": "Direct parent of the target commit and the minimal public-reachable base."
+  },
+  "target": {
+    "commit": "29d2468857be4de1644ca4470c2a4aa7f8137656",
+    "tree": "769093b891ff539a9a9acbe97c1cea95645d3842"
+  },
+  "series": {
+    "file": "blackjax-29d246-semantics-repair.patch",
+    "format": "git-format-patch",
+    "patch_count": 1,
+    "size_bytes": 32656,
+    "sha256": "099abcde00b170db8120c237f8ef0d36860e7d22d2df982f6fad1cc5bc101d2e",
+    "metadata_policy": "The human-readable patch omits the tool coauthor trailer; the diff and reconstructed source tree are unchanged.",
+    "generator_arguments": [
+      "git",
+      "format-patch",
+      "--stdout",
+      "--binary",
+      "--full-index",
+      "--no-signature",
+      "f8f7e3bfd04392ead392b7f5fe1938f0159f048d..29d2468857be4de1644ca4470c2a4aa7f8137656"
+    ]
+  },
+  "bundle": {
+    "file": "blackjax-29d246-semantics-repair.bundle",
+    "format": "git-bundle-v2",
+    "size_bytes": 6858,
+    "sha256": "5d3052f7b0f8e302b24abe81d51c0daa7c04e651f573c3ec0d0f307c139bf66f",
+    "included_ref": "HEAD",
+    "included_commit": "29d2468857be4de1644ca4470c2a4aa7f8137656",
+    "prerequisite_commit": "f8f7e3bfd04392ead392b7f5fe1938f0159f048d",
+    "generation_precondition": "HEAD is the target commit.",
+    "generator_arguments": [
+      "git",
+      "bundle",
+      "create",
+      "blackjax-29d246-semantics-repair.bundle",
+      "HEAD",
+      "^f8f7e3bfd04392ead392b7f5fe1938f0159f048d"
+    ]
+  },
+  "reconstruction": {
+    "precondition": "The public base commit must exist in a clean clone of the repository.",
+    "exact_commit": {
+      "fetch_arguments": [
+        "git",
+        "fetch",
+        "blackjax-29d246-semantics-repair.bundle",
+        "HEAD"
+      ],
+      "checkout_arguments": [
+        "git",
+        "checkout",
+        "--detach",
+        "FETCH_HEAD"
+      ],
+      "expected_head": "29d2468857be4de1644ca4470c2a4aa7f8137656"
+    },
+    "source_equivalent_patch": {
+      "precondition": "Checkout the base commit.",
+      "apply_arguments": [
+        "git",
+        "am",
+        "blackjax-29d246-semantics-repair.patch"
+      ],
+      "expected_tree": "769093b891ff539a9a9acbe97c1cea95645d3842",
+      "note": "A standard git-am creates a new commit identity with the sanitized human-readable message while reproducing the target source tree."
+    }
+  }
+}

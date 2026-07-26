@@ -1,0 +1,272 @@
+{
+  "arms": [
+    {
+      "arm_id": "gmm_k2_primary_60k",
+      "budget": 60000,
+      "chains": 8,
+      "correlated_axes": 2,
+      "draws": 1000,
+      "filename": "gmm_k2_primary_60k.jsonl",
+      "init_kind": "broad",
+      "kind": "primary",
+      "seeds": [
+        42,
+        123,
+        456
+      ],
+      "srs": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        9.5,
+        10.0
+      ]
+    },
+    {
+      "arm_id": "gmm_k2_budget_20k",
+      "budget": 20000,
+      "chains": 8,
+      "correlated_axes": 2,
+      "draws": 1000,
+      "filename": "gmm_k2_budget_20k.jsonl",
+      "init_kind": "broad",
+      "kind": "primary",
+      "seeds": [
+        42,
+        123,
+        456
+      ],
+      "srs": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        9.5,
+        10.0
+      ]
+    },
+    {
+      "arm_id": "gmm_k2_budget_120k",
+      "budget": 120000,
+      "chains": 8,
+      "correlated_axes": 2,
+      "draws": 1000,
+      "filename": "gmm_k2_budget_120k.jsonl",
+      "init_kind": "broad",
+      "kind": "primary",
+      "seeds": [
+        42,
+        123,
+        456
+      ],
+      "srs": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        9.5,
+        10.0
+      ]
+    },
+    {
+      "arm_id": "gmm_k2_single_chain_60k",
+      "budget": 60000,
+      "chains": 1,
+      "correlated_axes": 2,
+      "draws": 200,
+      "filename": "gmm_k2_single_chain_60k.jsonl",
+      "init_kind": "broad",
+      "kind": "single_chain",
+      "seeds": [
+        42
+      ],
+      "srs": [
+        1.5,
+        5.0,
+        10.0
+      ]
+    },
+    {
+      "arm_id": "gmm_k2_matched_diagonal_60k",
+      "budget": 60000,
+      "chains": 8,
+      "correlated_axes": 2,
+      "draws": 1000,
+      "filename": "gmm_k2_matched_diagonal_60k.jsonl",
+      "init_kind": "broad",
+      "kind": "matched_diagonal",
+      "seeds": [
+        42
+      ],
+      "srs": [
+        1.5,
+        4.0,
+        5.0,
+        9.0
+      ]
+    },
+    {
+      "arm_id": "gmm_k3_primary_60k",
+      "budget": 60000,
+      "chains": 8,
+      "correlated_axes": 3,
+      "draws": 1000,
+      "filename": "gmm_k3_primary_60k.jsonl",
+      "init_kind": "broad",
+      "kind": "primary",
+      "seeds": [
+        42,
+        123,
+        456
+      ],
+      "srs": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        9.5,
+        10.0
+      ]
+    },
+    {
+      "arm_id": "gmm_k3_matched_diagonal_60k",
+      "budget": 60000,
+      "chains": 8,
+      "correlated_axes": 3,
+      "draws": 4000,
+      "filename": "gmm_k3_matched_diagonal_60k.jsonl",
+      "init_kind": "broad",
+      "kind": "matched_diagonal",
+      "seeds": [
+        1001,
+        1002,
+        1003,
+        1004,
+        1005,
+        1006,
+        1007,
+        1008,
+        1009,
+        1010,
+        1011,
+        1012,
+        1013,
+        1014,
+        1015,
+        1016
+      ],
+      "srs": [
+        3.0,
+        3.5,
+        4.0,
+        4.5
+      ]
+    }
+  ],
+  "completed_utc": "2026-07-26T10:05:02.346997+00:00",
+  "elapsed_seconds": 618.8992190239951,
+  "mode": "full",
+  "result_sha256": {
+    "gmm_k2_budget_120k.jsonl": "448b00744d7a054db39b2fd34830b6cf1cf5fc41e31839b3f0f060ce9c50424a",
+    "gmm_k2_budget_20k.jsonl": "691604bcfb18fb65ef5100c6177f081f8e174e36511a55b4d0dcda896be37ced",
+    "gmm_k2_matched_diagonal_60k.jsonl": "978ab5a8908e39461755ce6eac8d98237f79b967596873a5c7b589c5227e743d",
+    "gmm_k2_primary_60k.jsonl": "ea6e16955bc273c291b83069b6d5ee1b8473f9f52f2be0ad7538a94169c30e81",
+    "gmm_k2_single_chain_60k.jsonl": "d4fed98d3cafa93e1983fa930b0b3e88bfaae53eedcc8f6adf45a5a4654e08a9",
+    "gmm_k3_matched_diagonal_60k.jsonl": "2e8ccb3ab29b326c516d5c3c24ef53e8a5c1eafd6bb3e544443a3477cdd46003",
+    "gmm_k3_primary_60k.jsonl": "58ae57a57f4d32e93ad6274b84047f332aee08fc2f9523a32354ab658b942460"
+  },
+  "schema_version": 1,
+  "started_utc": "2026-07-26T09:54:43.447780+00:00",
+  "status": "complete",
+  "validation": [
+    {
+      "analytic_invariance_max_error": 1.7763568394002505e-15,
+      "analytic_marginal_spike": 1.91304347826087,
+      "arm_id": "gmm_k2_primary_60k",
+      "filename": "gmm_k2_primary_60k.jsonl",
+      "rows": 42,
+      "status": "valid"
+    },
+    {
+      "analytic_invariance_max_error": 1.7763568394002505e-15,
+      "analytic_marginal_spike": 1.91304347826087,
+      "arm_id": "gmm_k2_budget_20k",
+      "filename": "gmm_k2_budget_20k.jsonl",
+      "rows": 42,
+      "status": "valid"
+    },
+    {
+      "analytic_invariance_max_error": 1.7763568394002505e-15,
+      "analytic_marginal_spike": 1.91304347826087,
+      "arm_id": "gmm_k2_budget_120k",
+      "filename": "gmm_k2_budget_120k.jsonl",
+      "rows": 42,
+      "status": "valid"
+    },
+    {
+      "analytic_invariance_max_error": 1.7763568394002505e-15,
+      "analytic_marginal_spike": 1.91304347826087,
+      "arm_id": "gmm_k2_single_chain_60k",
+      "filename": "gmm_k2_single_chain_60k.jsonl",
+      "rows": 3,
+      "status": "valid"
+    },
+    {
+      "analytic_invariance_max_error": 1.7763568394002505e-15,
+      "analytic_marginal_spike": 1.91304347826087,
+      "arm_id": "gmm_k2_matched_diagonal_60k",
+      "filename": "gmm_k2_matched_diagonal_60k.jsonl",
+      "rows": 4,
+      "status": "valid"
+    },
+    {
+      "analytic_invariance_max_error": 1.7763568394002505e-15,
+      "analytic_marginal_spike": 2.75,
+      "arm_id": "gmm_k3_primary_60k",
+      "filename": "gmm_k3_primary_60k.jsonl",
+      "rows": 42,
+      "status": "valid"
+    },
+    {
+      "analytic_invariance_max_error": 1.7763568394002505e-15,
+      "analytic_marginal_spike": 2.75,
+      "arm_id": "gmm_k3_matched_diagonal_60k",
+      "filename": "gmm_k3_matched_diagonal_60k.jsonl",
+      "rows": 64,
+      "status": "valid"
+    }
+  ]
+}
