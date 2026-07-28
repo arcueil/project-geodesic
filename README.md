@@ -15,7 +15,7 @@ local geometry.
 
 | Part | Paper | Role | Status |
 |---|---|---|---|
-| 1 | [The Universal Warmup Path: Many Routes, One Compass](papers/01-universal-warmup-path/) | Learn and assess a geometric reference during warmup | Circulation draft |
+| 1 | [The Universal Warmup Path: Automatic Preconditioner Selection for HMC](papers/01-universal-warmup-path/) | Learn and assess a geometric reference during warmup | Circulation draft |
 | 2 | [The Universal Sampler](papers/02-universal-sampler/) | Make efficient local moves conditional on the learned geometry | Proposal; kernel implemented, validation pending |
 | 3 | [The Nested Ensemble](papers/03-nested-ensemble/) | Replace one constant metric with regional metric fields and population exchange | Proposal |
 

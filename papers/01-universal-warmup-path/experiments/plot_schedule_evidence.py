@@ -213,7 +213,7 @@ def render(
     stable_event = _first_event(events, lambda event: event.get("airm_stable") is True)
     observed = (
         (route_event, "^", "#D55E00", "first low-rank latch"),
-        (handoff_event, "X", "#CC79A7", "first handoff/reparameterize"),
+        (handoff_event, "X", "#CC79A7", "first population handoff"),
         (stable_event, "*", "#E69F00", "first AIRM-stability marker"),
     )
     for event, marker, color, label in observed:
@@ -245,7 +245,8 @@ def render(
     axis.grid(axis="x", color="#dddddd", linewidth=0.6)
     axis.set_title(
         "Prescribed boundaries and evidence evaluated at those boundaries\n"
-        "the current controller chooses a route; it does not move the boundary",
+        "the current controller selects a preconditioner estimator; "
+        "it does not move the boundary",
         fontsize=10,
     )
     axis.text(
