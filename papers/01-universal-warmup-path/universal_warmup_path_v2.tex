@@ -105,6 +105,13 @@ retains the applicable within-region matrix and produces advice to use a
 population or tempering method for regional exploration. Poor held-out
 score--position linearity instead produces reparameterization advice.
 
+Previous work by \citet{bales2019selecting} constructs and selects for deployment
+diagonal, dense, and Hessian-informed low-rank constant Euclidean preconditioners
+from one chain's warmup window, using an $80/20$ held-out conditioning criterion
+for leapfrog stability. Our finite multi-chain within/between evidence instead
+gates estimator and retained-rank eligibility, yielding another window if
+inconclusive or a population handoff under persistent disagreement.
+
 For the formal analysis, $a$ indexes candidate preconditioner estimators and
 $m=1,\ldots,M$ indexes chains. Each estimator maps statistics from one current
 $M$-chain window to a candidate constant inverse mass matrix, whose population
@@ -989,6 +996,8 @@ The deployed verdict reports the selected estimator and effective rank; its
 flags report conditioning scope, observed ensemble evidence, and advisory
 handoff. The next implementation step is to calibrate its fixed diagnostic
 thresholds to the theory's uncertainty objects.
+Unevaluated here, the criterion of \citet{bales2019selecting} could rank only
+eligible metrics.
 
 The GMM boundary is compatible with the exact within/between decomposition but
 does not identify a unique occupation mechanism. Its $k=3$ ablation exercises
