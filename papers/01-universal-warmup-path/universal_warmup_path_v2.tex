@@ -12,6 +12,20 @@
 \usepackage{booktabs}
 \usepackage{multirow}
 \usepackage{float}
+% Floating placement (arXiv-style tightly filled pages): floats may move to
+% page tops/bottoms so text fills the gaps a hard [H] pin would leave, and
+% \flushbottom stretches the page's rubber glue (display, float, and heading
+% skips) so every page bottom aligns instead of ending ragged.
+\flushbottom
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.7}
+\renewcommand{\textfraction}{0.07}
+\renewcommand{\floatpagefraction}{0.8}
+\setlength{\textfloatsep}{18pt plus 5pt minus 4pt}
+\setlength{\intextsep}{14pt plus 4pt minus 3pt}
+% Distribute \flushbottom stretch thinly across paragraph boundaries instead
+% of concentrating it at one float separation.
+\setlength{\parskip}{0pt plus 3pt}
 \usepackage{graphicx}
 \usepackage{tikz}
 \usetikzlibrary{arrows.meta,calc,positioning,shapes.geometric}
@@ -294,7 +308,7 @@ limited reseed ablation reports the observed continuous-versus-reseed
 comparison. Figure~\ref{fig:schedule} in Appendix~\ref{app:schedule} records
 the schedule prescriptions and one executed trace.
 
-\begin{figure}[H]\centering
+\begin{figure}[tbp]\centering
 \resizebox{0.98\linewidth}{!}{%
 \begin{tikzpicture}[
   font=\footnotesize,
@@ -525,7 +539,7 @@ This limit identifies $\Sigma_\pi$ only when $\bar\nu$ is second-moment
 representative of $\pi$. Agreement among chains is not enough: a clean ensemble
 confined to one basin can converge to the wrong regional covariance.
 
-\begin{figure}[H]\centering
+\begin{figure}[tbp]\centering
 \resizebox{0.98\linewidth}{!}{%
 \begin{tikzpicture}[
   font=\footnotesize,
@@ -707,7 +721,7 @@ exact edge for Markov draws, a finite-sample if-and-only-if statement, or an
 unrestricted information limit. In particular, subthreshold alternatives can
 retain nontrivial testing power \citep{onatski2013asymptotic}.
 
-\begin{figure}[H]\centering
+\begin{figure}[tbp]\centering
   \includegraphics[width=\linewidth]{figures/figure_bbp.pdf}
   \caption{Iid Gaussian spiked-PCA calibration ($d=200$). The curves show the
   asymptotic sample eigenvalue and eigenvector overlap; markers are fixed-seed
@@ -759,7 +773,7 @@ $5.0$ at $20{,}000$, $6.0$ at $60{,}000$, and $7.0$ at $120{,}000$ warmup
 gradients. Appendix~\ref{app:gmm-boundary} gives every current $60$k row, the
 single-chain contrast, and the matched ablations.
 
-\begin{figure}[H]\centering
+\begin{figure}[tbp]\centering
   \includegraphics[width=\linewidth]{figures/gmm_money_panel.png}
   \caption{Current-corpus controlled GMM boundary, generated from the current
   $k=2$ main corpus. Top: target draws at selected separation ratios. Bottom:
@@ -840,7 +854,7 @@ arithmetic and explicit integer seeds. Pooled accounting divides the effective
 sample size computed from all eight chains by all warmup and sampling
 gradients. Every ratio charges gradients actually consumed.
 
-\begin{table}[H]\centering
+\begin{table}[htbp]\centering
 \caption{Geometric-mean pooled ESS-per-gradient ratios under the declared
 configurations. Ratio = automatic controller divided by prespecified baseline;
 values greater than $1$ favor the automatic controller.}
@@ -1154,7 +1168,7 @@ sampling gradients plus all shared warmup gradients. It compares with
 historical single-chain versions of those estimator families and is descriptive
 rather than budget-identical.
 
-\begin{table}[H]\centering
+\begin{table}[htbp]\centering
 \caption{Secondary geometric-mean ESS-per-gradient ratios. Ratio = automatic
 controller divided by the listed comparator; values greater than $1$ favor the
 automatic controller. The one-output comparison is descriptive and not
@@ -1178,7 +1192,7 @@ German credit & Welford diagonal warmup & $5.887$ & $6.009$ \\
 The target construction pins the marginal diagonal-whitened top eigenvalue at
 $1.913$. Here $\mathrm{SR}=\delta/s(\delta)$ is the separation ratio defined in
 \S\ref{sec:ident}. The main $60$k sweep is:
-\begin{table}[H]\centering
+\begin{table}[htbp]\centering
 \caption{Current $60$k $k=2$ sweep across three seeds. ``Persistent'' counts
 \nolinkurl{persistent_disagreement_signal}; ``handoff'' counts the advisory
 \texttt{population} endpoint.}
@@ -1255,7 +1269,7 @@ $39$ are above $1$ and $25$ below.
 
 \section{Schedule-comparison scope}\label{app:schedule}
 
-\begin{figure}[H]\centering
+\begin{figure}[tbp]\centering
   \includegraphics[width=\linewidth]{figures/schedule_evidence.pdf}
   \caption{Schedule evidence and one executed controller trace. The Stan and
   Fisher-HMC lanes are unexecuted reference prescriptions; Fisher-HMC denotes
