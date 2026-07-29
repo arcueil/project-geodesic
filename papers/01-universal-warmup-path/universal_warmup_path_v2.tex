@@ -996,9 +996,9 @@ The deployed verdict reports the selected estimator and effective rank; its
 flags report conditioning scope, observed ensemble evidence, and advisory
 handoff. The next implementation step is to calibrate its fixed diagnostic
 thresholds to the theory's uncertainty objects.
-Once our evidence-adequacy step establishes eligibility, the held-out criterion             
-of \citet{bales2019selecting} could rank candidate metrics; we did not evaluate             
-this composition.      
+Once our evidence-adequacy step establishes eligibility, the held-out criterion
+of \citet{bales2019selecting} could rank candidate metrics; we did not evaluate
+this composition.
 
 The GMM boundary is compatible with the exact within/between decomposition but
 does not identify a unique occupation mechanism. Its $k=3$ ablation exercises
@@ -1216,8 +1216,8 @@ to the implemented diagnostic thresholds and evaluated budget.
 
 \paragraph{Matched diagonal ablation.}
 The comparison holds warmup, step size, initialization, and $M=8$ fixed. Its
-minimum-coordinate bulk-ESS-per-gradient low-rank/diagonal ratios are
-$0.869230$, $0.997721$, $1.170288$, and $0.997752$ at
+low-rank/matched-diagonal projection bulk ESS($v^\top x$) per gradient ratios
+are $0.869230$, $0.997721$, $1.170288$, and $0.997752$ at
 $\mathrm{SR}=1.5,4,5,9$, respectively. These four evaluated comparisons are
 descriptive: identification of anisotropy alone does not establish a general
 efficiency gain.
