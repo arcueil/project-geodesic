@@ -1,5 +1,7 @@
 # Paper 1: The Universal Warmup Path — Automatic Preconditioner Selection for HMC
 
+**arXiv:** [arXiv:2607.23788](https://arxiv.org/abs/2607.23788)
+
 Circulation source for the BlackJAX adaptation paper. The paper presents a
 multi-chain automatic warmup controller for HMC. It begins with a diagonal
 inverse mass matrix, evaluates evidence at dimension-derived scheduled window
